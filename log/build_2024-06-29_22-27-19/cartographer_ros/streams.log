@@ -1,0 +1,153 @@
+[0.013s] Invoking command in '/home/user/cartographer_ws/build/cartographer_ros': CMAKE_PREFIX_PATH=/home/user/cartographer_ws/install/cartographer_ros_msgs:/home/user/cartographer_ws/install/cartographer:/home/user/cartographer_ws/install/cartographer_rviz:/home/user/cartographer_ws/install/cartographer_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/user/cartographer_ws/install/cartographer_ros_msgs/lib:/home/user/cartographer_ws/install/cartographer_rviz/lib:/home/user/cartographer_ws/install/cartographer_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/user/cartographer_ws/src/cartographer_ros/cartographer_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/cartographer_ws/install/cartographer_ros
+[0.027s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.180s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.188s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.216s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.218s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.225s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.237s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.255s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.288s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[0.293s] -- Found required Ceres dependency: glog
+[0.294s] -- Found required Ceres dependency: gflags
+[0.296s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[0.317s] -- Found cartographer_ros_msgs: 2.0.9003 (/home/user/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake)
+[0.560s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.588s] -- looking for PCL_COMMON
+[0.589s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.692s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.758s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.760s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.901s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.373s] -- Found rosbag2_cpp: 0.15.11 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[1.411s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[1.420s] -- Found tf2_eigen: 0.25.7 (/opt/ros/humble/share/tf2_eigen/cmake)
+[1.820s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[1.828s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.917s] -- Configuring done
+[3.176s] -- Generating done
+[3.179s] -- Build files have been written to: /home/user/cartographer_ws/build/cartographer_ros
+[3.191s] Invoked command in '/home/user/cartographer_ws/build/cartographer_ros' returned '0': CMAKE_PREFIX_PATH=/home/user/cartographer_ws/install/cartographer_ros_msgs:/home/user/cartographer_ws/install/cartographer:/home/user/cartographer_ws/install/cartographer_rviz:/home/user/cartographer_ws/install/cartographer_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/user/cartographer_ws/install/cartographer_ros_msgs/lib:/home/user/cartographer_ws/install/cartographer_rviz/lib:/home/user/cartographer_ws/install/cartographer_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/user/cartographer_ws/src/cartographer_ros/cartographer_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/cartographer_ws/install/cartographer_ros
+[3.193s] Invoking command in '/home/user/cartographer_ws/build/cartographer_ros': CMAKE_PREFIX_PATH=/home/user/cartographer_ws/install/cartographer_ros_msgs:/home/user/cartographer_ws/install/cartographer:/home/user/cartographer_ws/install/cartographer_rviz:/home/user/cartographer_ws/install/cartographer_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/user/cartographer_ws/install/cartographer_ros_msgs/lib:/home/user/cartographer_ws/install/cartographer_rviz/lib:/home/user/cartographer_ws/install/cartographer_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/user/cartographer_ws/build/cartographer_ros -- -j8 -l8
+[3.270s] [35m[1mConsolidate compiler generated dependencies of target cartographer_ros[0m
+[3.388s] [ 60%] Built target cartographer_ros
+[3.408s] [35m[1mConsolidate compiler generated dependencies of target cartographer_rosbag_validate[0m
+[3.409s] [35m[1mConsolidate compiler generated dependencies of target cartographer_offline_node[0m
+[3.409s] [35m[1mConsolidate compiler generated dependencies of target cartographer_assets_writer[0m
+[3.409s] [35m[1mConsolidate compiler generated dependencies of target cartographer_pbstream_to_ros_map[0m
+[3.409s] [35m[1mConsolidate compiler generated dependencies of target cartographer_occupancy_grid_node[0m
+[3.409s] [35m[1mConsolidate compiler generated dependencies of target cartographer_pbstream_map_publisher[0m
+[3.410s] [35m[1mConsolidate compiler generated dependencies of target cartographer_node[0m
+[3.454s] [ 62%] [32m[1mLinking CXX executable cartographer_offline_node[0m
+[3.458s] [ 65%] [32m[1mLinking CXX executable cartographer_rosbag_validate[0m
+[3.461s] [ 68%] [32m[1mLinking CXX executable cartographer_assets_writer[0m
+[3.463s] [ 71%] [32m[1mLinking CXX executable cartographer_occupancy_grid_node[0m
+[3.464s] [ 74%] [32m[1mLinking CXX executable cartographer_pbstream_map_publisher[0m
+[3.464s] [ 77%] [32m[1mLinking CXX executable cartographer_node[0m
+[3.465s] [ 80%] [32m[1mLinking CXX executable cartographer_pbstream_to_ros_map[0m
+[5.815s] [ 82%] Built target cartographer_pbstream_to_ros_map
+[6.082s] [ 85%] Built target cartographer_rosbag_validate
+[6.758s] [ 88%] Built target cartographer_pbstream_map_publisher
+[7.501s] [ 91%] Built target cartographer_assets_writer
+[8.135s] [ 94%] Built target cartographer_occupancy_grid_node
+[12.878s] [ 97%] Built target cartographer_node
+[13.140s] [100%] Built target cartographer_offline_node
+[13.153s] Invoked command in '/home/user/cartographer_ws/build/cartographer_ros' returned '0': CMAKE_PREFIX_PATH=/home/user/cartographer_ws/install/cartographer_ros_msgs:/home/user/cartographer_ws/install/cartographer:/home/user/cartographer_ws/install/cartographer_rviz:/home/user/cartographer_ws/install/cartographer_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/user/cartographer_ws/install/cartographer_ros_msgs/lib:/home/user/cartographer_ws/install/cartographer_rviz/lib:/home/user/cartographer_ws/install/cartographer_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/user/cartographer_ws/build/cartographer_ros -- -j8 -l8
+[13.270s] Invoking command in '/home/user/cartographer_ws/build/cartographer_ros': CMAKE_PREFIX_PATH=/home/user/cartographer_ws/install/cartographer_ros_msgs:/home/user/cartographer_ws/install/cartographer:/home/user/cartographer_ws/install/cartographer_rviz:/home/user/cartographer_ws/install/cartographer_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/user/cartographer_ws/install/cartographer_ros_msgs/lib:/home/user/cartographer_ws/install/cartographer_rviz/lib:/home/user/cartographer_ws/install/cartographer_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/user/cartographer_ws/build/cartographer_ros
+[13.278s] -- Install configuration: ""
+[13.278s] -- Execute custom install script
+[13.279s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/lib/libcartographer_ros.a
+[13.289s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_node
+[13.299s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_occupancy_grid_node
+[13.309s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_offline_node
+[13.319s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_assets_writer
+[13.330s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_map_publisher
+[13.341s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_to_ros_map
+[13.351s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_rosbag_validate
+[13.362s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/include//cartographer_ros/assets_writer.h
+[13.373s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/include//cartographer_ros/map_builder_bridge.h
+[13.383s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/include//cartographer_ros/metrics/family_factory.h
+[13.394s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/include//cartographer_ros/metrics/internal/counter.h
+[13.404s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/include//cartographer_ros/metrics/internal/family.h
+[13.415s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/include//cartographer_ros/metrics/internal/gauge.h
+[13.425s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/include//cartographer_ros/metrics/internal/histogram.h
+[13.436s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/include//cartographer_ros/msg_conversion.h
+[13.446s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/include//cartographer_ros/node.h
+[13.456s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/include//cartographer_ros/node_constants.h
+[13.466s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/include//cartographer_ros/node_options.h
+[13.476s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/include//cartographer_ros/offline_node.h
+[13.486s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/include//cartographer_ros/playable_bag.h
+[13.496s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/include//cartographer_ros/ros_log_sink.h
+[13.506s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/include//cartographer_ros/ros_map.h
+[13.517s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/include//cartographer_ros/ros_map_writing_points_processor.h
+[13.527s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/include//cartographer_ros/sensor_bridge.h
+[13.538s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/include//cartographer_ros/submap.h
+[13.548s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/include//cartographer_ros/tf_bridge.h
+[13.558s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/include//cartographer_ros/time_conversion.h
+[13.568s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/include//cartographer_ros/trajectory_options.h
+[13.578s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/include//cartographer_ros/urdf_reader.h
+[13.589s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_2d.lua
+[13.599s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_2d_ci.lua
+[13.610s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_3d.lua
+[13.621s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_ros_map.lua
+[13.631s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d.lua
+[13.642s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_localization.lua
+[13.652s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_localization_evaluation.lua
+[13.662s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_server.lua
+[13.672s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_3d.lua
+[13.682s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_3d_localization.lua
+[13.693s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/demo_2d.rviz
+[13.703s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/demo_3d.rviz
+[13.713s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/mir-100-mapping.lua
+[13.724s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/pr2.lua
+[13.735s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/revo_lds.lua
+[13.746s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/taurob_tracker.lua
+[13.757s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/transform.lua
+[13.767s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/turtlebot3.lua
+[13.777s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/visualize_pbstream.lua
+[13.787s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//urdf/backpack_2d.urdf
+[13.797s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//urdf/backpack_3d.urdf
+[13.808s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//urdf/mir-100.urdf
+[13.819s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_backpack_2d.launch.py
+[13.830s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_backpack_3d.launch.py
+[13.841s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_ros_map.launch.py
+[13.851s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/backpack_2d.launch.py
+[13.862s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/backpack_3d.launch.py
+[13.872s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/cartographer_rviz.launch.py
+[13.883s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_2d.launch.py
+[13.893s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_2d_localization.launch.py
+[13.904s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_3d.launch.py
+[13.914s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_3d_localization.launch.py
+[13.927s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_pr2.launch
+[13.937s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_revo_lds.launch.py
+[13.948s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_taurob_tracker.launch.py
+[13.959s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/grpc_demo_backpack_2d.launch
+[13.970s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/grpc_demo_backpack_2d_localization.launch
+[13.980s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/offline_backpack_2d.launch.py
+[13.991s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/offline_backpack_3d.launch.py
+[14.001s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/offline_mir_100_rviz.launch.py
+[14.012s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/offline_node.launch.py
+[14.023s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/taurob_tracker.launch.py
+[14.033s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/turtlebot3_cartographer.launch.py
+[14.044s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/visualize_pbstream.launch.py
+[14.055s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros/environment/library_path.sh
+[14.066s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros/environment/library_path.dsv
+[14.076s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/ament_index/resource_index/package_run_dependencies/cartographer_ros
+[14.086s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/ament_index/resource_index/parent_prefix_path/cartographer_ros
+[14.096s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros/environment/ament_prefix_path.sh
+[14.107s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros/environment/ament_prefix_path.dsv
+[14.118s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros/environment/path.sh
+[14.129s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros/environment/path.dsv
+[14.139s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros/local_setup.bash
+[14.150s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros/local_setup.sh
+[14.161s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros/local_setup.zsh
+[14.171s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros/local_setup.dsv
+[14.181s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros/package.dsv
+[14.192s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/ament_index/resource_index/packages/cartographer_ros
+[14.202s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.212s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[14.224s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.235s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosConfig.cmake
+[14.245s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosConfig-version.cmake
+[14.255s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros/package.xml
+[14.268s] Invoked command in '/home/user/cartographer_ws/build/cartographer_ros' returned '0': CMAKE_PREFIX_PATH=/home/user/cartographer_ws/install/cartographer_ros_msgs:/home/user/cartographer_ws/install/cartographer:/home/user/cartographer_ws/install/cartographer_rviz:/home/user/cartographer_ws/install/cartographer_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/user/cartographer_ws/install/cartographer_ros_msgs/lib:/home/user/cartographer_ws/install/cartographer_rviz/lib:/home/user/cartographer_ws/install/cartographer_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/user/cartographer_ws/build/cartographer_ros

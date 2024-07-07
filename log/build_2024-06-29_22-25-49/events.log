@@ -1,0 +1,437 @@
+[0.000000] (-) TimerEvent: {}
+[0.000114] (cartographer) JobQueued: {'identifier': 'cartographer', 'dependencies': OrderedDict()}
+[0.000175] (cartographer_ros_msgs) JobQueued: {'identifier': 'cartographer_ros_msgs', 'dependencies': OrderedDict()}
+[0.000198] (cartographer_ros) JobQueued: {'identifier': 'cartographer_ros', 'dependencies': OrderedDict([('cartographer', '/home/user/cartographer_ws/install/cartographer'), ('cartographer_ros_msgs', '/home/user/cartographer_ws/install/cartographer_ros_msgs')])}
+[0.000222] (cartographer_rviz) JobQueued: {'identifier': 'cartographer_rviz', 'dependencies': OrderedDict([('cartographer', '/home/user/cartographer_ws/install/cartographer'), ('cartographer_ros_msgs', '/home/user/cartographer_ws/install/cartographer_ros_msgs'), ('cartographer_ros', '/home/user/cartographer_ws/install/cartographer_ros')])}
+[0.000276] (cartographer) JobStarted: {'identifier': 'cartographer'}
+[0.009414] (cartographer_ros_msgs) JobStarted: {'identifier': 'cartographer_ros_msgs'}
+[0.014690] (cartographer) JobProgress: {'identifier': 'cartographer', 'progress': 'cmake'}
+[0.015532] (cartographer) JobProgress: {'identifier': 'cartographer', 'progress': 'build'}
+[0.016525] (cartographer) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/cartographer_ws/build/cartographer', '--', '-j8', '-l8'], 'cwd': '/home/user/cartographer_ws/build/cartographer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja_JP:ja'), ('USER', 'user'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/user/cartographer_ws/install/cartographer_rviz/lib:/home/user/cartographer_ws/install/cartographer_ros/lib:/home/user/cartographer_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1530'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8178f10dc8b6ee78d0f47c1e667feffe'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/user/cartographer_ws/install:/home/user/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/user/cartographer_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/user/cartographer_ws/install/cartographer/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/user/cartographer_ws/install/cartographer/bin:/opt/ros/humble/bin:/home/user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu4:@/tmp/.ICE-unix/1530,unix/Ubuntu4:/tmp/.ICE-unix/1530'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a4623f77_4bdf_4c2a_93c9_05c0a332c1f6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WI9UP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.137'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '31'), ('AMENT_PREFIX_PATH', '/home/user/cartographer_ws/install/cartographer_rviz:/home/user/cartographer_ws/install/cartographer_ros:/home/user/cartographer_ws/install/cartographer_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/user/cartographer_ws/build/cartographer'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8178f10dc8b6ee78d0f47c1e667feffe'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/user/cartographer_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/user/cartographer_ws/install/cartographer_rviz:/home/user/cartographer_ws/install/cartographer_ros:/home/user/cartographer_ws/install/cartographer_ros_msgs:/home/user/cartographer_ws/install/cartographer:/opt/ros/humble')]), 'shell': False}
+[0.019854] (cartographer_ros_msgs) JobProgress: {'identifier': 'cartographer_ros_msgs', 'progress': 'cmake'}
+[0.021413] (cartographer_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/user/cartographer_ws/src/cartographer_ros/cartographer_ros_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/user/cartographer_ws/install/cartographer_ros_msgs'], 'cwd': '/home/user/cartographer_ws/build/cartographer_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja_JP:ja'), ('USER', 'user'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/user/cartographer_ws/install/cartographer_rviz/lib:/home/user/cartographer_ws/install/cartographer_ros/lib:/home/user/cartographer_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1530'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8178f10dc8b6ee78d0f47c1e667feffe'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/user/cartographer_ws/install:/home/user/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/user/cartographer_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/user/cartographer_ws/install/cartographer/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/user/cartographer_ws/install/cartographer/bin:/opt/ros/humble/bin:/home/user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu4:@/tmp/.ICE-unix/1530,unix/Ubuntu4:/tmp/.ICE-unix/1530'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a4623f77_4bdf_4c2a_93c9_05c0a332c1f6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WI9UP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.137'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '31'), ('AMENT_PREFIX_PATH', '/home/user/cartographer_ws/install/cartographer_rviz:/home/user/cartographer_ws/install/cartographer_ros:/home/user/cartographer_ws/install/cartographer_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/user/cartographer_ws/build/cartographer_ros_msgs'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8178f10dc8b6ee78d0f47c1e667feffe'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/user/cartographer_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/user/cartographer_ws/install/cartographer_rviz:/home/user/cartographer_ws/install/cartographer_ros:/home/user/cartographer_ws/install/cartographer_ros_msgs:/home/user/cartographer_ws/install/cartographer:/opt/ros/humble')]), 'shell': False}
+[0.087828] (cartographer_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099239] (-) TimerEvent: {}
+[0.156901] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest\x1b[0m\n'}
+[0.172244] (cartographer) StdoutLine: {'line': b'[  0%] \x1b[34m\x1b[1mBuilding documentation.\x1b[0m\n'}
+[0.175732] (cartographer) StdoutLine: {'line': b'[  1%] Built target gtest\n'}
+[0.188209] (cartographer) StdoutLine: {'line': b'[  1%] Built target cartographer_detect_changes\n'}
+[0.192746] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gmock\x1b[0m\n'}
+[0.199337] (-) TimerEvent: {}
+[0.209880] (cartographer) StdoutLine: {'line': b'[  2%] Built target gmock\n'}
+[0.222830] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gmock_main\x1b[0m\n'}
+[0.243127] (cartographer) StdoutLine: {'line': b'[  2%] Built target gmock_main\n'}
+[0.270415] (cartographer_ros_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.294376] (cartographer_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.297950] (cartographer_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.299414] (-) TimerEvent: {}
+[0.304220] (cartographer_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.362797] (cartographer_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.367127] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer\x1b[0m\n'}
+[0.399515] (-) TimerEvent: {}
+[0.399814] (cartographer_ros_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[0.424012] (cartographer_ros_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.499617] (-) TimerEvent: {}
+[0.599911] (-) TimerEvent: {}
+[0.636343] (cartographer) StdoutLine: {'line': b'\x1b[01mRunning Sphinx v4.3.2\x1b[39;49;00m\n'}
+[0.700016] (-) TimerEvent: {}
+[0.800315] (-) TimerEvent: {}
+[0.856799] (cartographer) StdoutLine: {'line': b'\x1b[01mloading pickled environment... \x1b[39;49;00mdone\n'}
+[0.860816] (cartographer) StdoutLine: {'line': b'\x1b[01mbuilding [mo]: \x1b[39;49;00mtargets for 0 po files that are out of date\n'}
+[0.861535] (cartographer) StdoutLine: {'line': b'\x1b[01mbuilding [html]: \x1b[39;49;00mtargets for 0 source files that are out of date\n'}
+[0.862421] (cartographer) StdoutLine: {'line': b'\x1b[01mupdating environment: \x1b[39;49;00m0 added, 0 changed, 0 removed\n'}
+[0.862751] (cartographer) StdoutLine: {'line': b'\x1b[01mlooking for now-outdated files... \x1b[39;49;00mnone found\n'}
+[0.862973] (cartographer) StdoutLine: {'line': b'\x1b[01mno targets are out of date.\x1b[39;49;00m\n'}
+[0.863129] (cartographer) StdoutLine: {'line': b'\x1b[01mbuild succeeded.\x1b[39;49;00m\n'}
+[0.863238] (cartographer) StdoutLine: {'line': b'\n'}
+[0.863343] (cartographer) StdoutLine: {'line': b'The HTML pages are in html.\n'}
+[0.900417] (-) TimerEvent: {}
+[0.968863] (cartographer) StdoutLine: {'line': b'[  2%] Built target build_doc\n'}
+[0.978690] (cartographer) StdoutLine: {'line': b'[ 55%] Built target cartographer\n'}
+[0.994025] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer_autogenerate_ground_truth\x1b[0m\n'}
+[0.996431] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer_pbstream\x1b[0m\n'}
+[0.996690] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer_test_library\x1b[0m\n'}
+[0.997031] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer_compute_relations_metrics\x1b[0m\n'}
+[0.998270] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer_print_configuration\x1b[0m\n'}
+[1.000495] (-) TimerEvent: {}
+[1.013923] (cartographer) StdoutLine: {'line': b'[ 56%] Built target cartographer_pbstream\n'}
+[1.029046] (cartographer) StdoutLine: {'line': b'[ 56%] Built target cartographer_print_configuration\n'}
+[1.029519] (cartographer) StdoutLine: {'line': b'[ 57%] Built target cartographer_autogenerate_ground_truth\n'}
+[1.033809] (cartographer) StdoutLine: {'line': b'[ 57%] Built target cartographer_compute_relations_metrics\n'}
+[1.040396] (cartographer) StdoutLine: {'line': b'[ 58%] Built target cartographer_test_library\n'}
+[1.059407] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.common.fixed_ratio_sampler_test\x1b[0m\n'}
+[1.060233] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.common.configuration_files_test\x1b[0m\n'}
+[1.060626] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.common.internal.blocking_queue_test\x1b[0m\n'}
+[1.061565] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.common.thread_pool_test\x1b[0m\n'}
+[1.061836] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.common.task_test\x1b[0m\n'}
+[1.062045] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.common.internal.rate_timer_test\x1b[0m\n'}
+[1.071485] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.common.math_test\x1b[0m\n'}
+[1.071852] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.common.lua_parameter_dictionary_test\x1b[0m\n'}
+[1.092353] (cartographer) StdoutLine: {'line': b'[ 59%] Built target cartographer.common.thread_pool_test\n'}
+[1.097750] (cartographer) StdoutLine: {'line': b'[ 60%] Built target cartographer.common.task_test\n'}
+[1.098164] (cartographer) StdoutLine: {'line': b'[ 60%] Built target cartographer.common.fixed_ratio_sampler_test\n'}
+[1.100618] (-) TimerEvent: {}
+[1.102859] (cartographer) StdoutLine: {'line': b'[ 60%] Built target cartographer.common.internal.blocking_queue_test\n'}
+[1.104048] (cartographer) StdoutLine: {'line': b'[ 60%] Built target cartographer.common.configuration_files_test\n'}
+[1.106228] (cartographer) StdoutLine: {'line': b'[ 61%] Built target cartographer.common.internal.rate_timer_test\n'}
+[1.111200] (cartographer) StdoutLine: {'line': b'[ 61%] Built target cartographer.common.lua_parameter_dictionary_test\n'}
+[1.114953] (cartographer) StdoutLine: {'line': b'[ 62%] Built target cartographer.common.math_test\n'}
+[1.117959] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.io.fake_file_writer_test\x1b[0m\n'}
+[1.120685] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.io.internal.in_memory_proto_stream_test\x1b[0m\n'}
+[1.121211] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.io.points_processor_pipeline_builder_test\x1b[0m\n'}
+[1.127691] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.io.probability_grid_points_processor_test\x1b[0m\n'}
+[1.128844] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.io.proto_stream_test\x1b[0m\n'}
+[1.129210] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.io.proto_stream_deserializer_test\x1b[0m\n'}
+[1.136309] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.io.serialization_format_migration_test\x1b[0m\n'}
+[1.136888] (cartographer_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[1.139809] (cartographer_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[1.141560] (cartographer_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)\n'}
+[1.144293] (cartographer_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.148841] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.2d.map_limits_test\x1b[0m\n'}
+[1.166628] (cartographer) StdoutLine: {'line': b'[ 62%] Built target cartographer.io.points_processor_pipeline_builder_test\n'}
+[1.168362] (cartographer) StdoutLine: {'line': b'[ 63%] Built target cartographer.io.internal.in_memory_proto_stream_test\n'}
+[1.173001] (cartographer) StdoutLine: {'line': b'[ 63%] Built target cartographer.io.fake_file_writer_test\n'}
+[1.173237] (cartographer) StdoutLine: {'line': b'[ 63%] Built target cartographer.io.proto_stream_deserializer_test\n'}
+[1.173976] (cartographer) StdoutLine: {'line': b'[ 64%] Built target cartographer.io.probability_grid_points_processor_test\n'}
+[1.180061] (cartographer) StdoutLine: {'line': b'[ 65%] Built target cartographer.io.proto_stream_test\n'}
+[1.186024] (cartographer) StdoutLine: {'line': b'[ 65%] Built target cartographer.io.serialization_format_migration_test\n'}
+[1.190491] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.2d.range_data_inserter_2d_test\x1b[0m\n'}
+[1.191236] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.2d.xy_index_test\x1b[0m\n'}
+[1.193072] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.3d.hybrid_grid_test\x1b[0m\n'}
+[1.193461] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.2d.submap_2d_test\x1b[0m\n'}
+[1.197108] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.2d.probability_grid_test\x1b[0m\n'}
+[1.200704] (-) TimerEvent: {}
+[1.202668] (cartographer) StdoutLine: {'line': b'[ 66%] Built target cartographer.mapping.2d.map_limits_test\n'}
+[1.208164] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.3d.range_data_inserter_3d_test\x1b[0m\n'}
+[1.220720] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.id_test\x1b[0m\n'}
+[1.221035] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.3d.submap_3d_test\x1b[0m\n'}
+[1.237424] (cartographer) StdoutLine: {'line': b'[ 67%] Built target cartographer.mapping.2d.xy_index_test\n'}
+[1.238257] (cartographer) StdoutLine: {'line': b'[ 67%] Built target cartographer.mapping.2d.probability_grid_test\n'}
+[1.240498] (cartographer) StdoutLine: {'line': b'[ 67%] Built target cartographer.mapping.2d.submap_2d_test\n'}
+[1.247513] (cartographer) StdoutLine: {'line': b'[ 68%] Built target cartographer.mapping.2d.range_data_inserter_2d_test\n'}
+[1.252995] (cartographer) StdoutLine: {'line': b'[ 68%] Built target cartographer.mapping.3d.hybrid_grid_test\n'}
+[1.258945] (cartographer) StdoutLine: {'line': b'[ 69%] Built target cartographer.mapping.3d.range_data_inserter_3d_test\n'}
+[1.259516] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.imu_tracker_test\x1b[0m\n'}
+[1.261846] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.2d.normal_estimation_2d_test\x1b[0m\n'}
+[1.265347] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.2d.overlapping_submaps_trimmer_2d_test\x1b[0m\n'}
+[1.265891] (cartographer) StdoutLine: {'line': b'[ 70%] Built target cartographer.mapping.id_test\n'}
+[1.268901] (cartographer) StdoutLine: {'line': b'[ 70%] Built target cartographer.mapping.3d.submap_3d_test\n'}
+[1.277474] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.2d.pose_graph_2d_test\x1b[0m\n'}
+[1.285931] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.2d.scan_matching.ceres_scan_matcher_2d_test\x1b[0m\n'}
+[1.287320] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.2d.ray_to_pixel_mask_test\x1b[0m\n'}
+[1.297448] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.2d.scan_matching.fast_correlative_scan_matcher_2d_test\x1b[0m\n'}
+[1.299336] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.2d.scan_matching.correlative_scan_matcher_test\x1b[0m\n'}
+[1.300793] (-) TimerEvent: {}
+[1.301724] (cartographer) StdoutLine: {'line': b'[ 70%] Built target cartographer.mapping.imu_tracker_test\n'}
+[1.302183] (cartographer) StdoutLine: {'line': b'[ 71%] Built target cartographer.mapping.internal.2d.normal_estimation_2d_test\n'}
+[1.313716] (cartographer) StdoutLine: {'line': b'[ 71%] Built target cartographer.mapping.internal.2d.overlapping_submaps_trimmer_2d_test\n'}
+[1.324953] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.2d.scan_matching.occupied_space_cost_function_2d_test\x1b[0m\n'}
+[1.325699] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.2d.scan_matching.interpolated_tsdf_2d_test\x1b[0m\n'}
+[1.332350] (cartographer) StdoutLine: {'line': b'[ 72%] Built target cartographer.mapping.internal.2d.pose_graph_2d_test\n'}
+[1.332609] (cartographer) StdoutLine: {'line': b'[ 72%] Built target cartographer.mapping.internal.2d.ray_to_pixel_mask_test\n'}
+[1.337395] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.2d.scan_matching.real_time_correlative_scan_matcher_2d_test\x1b[0m\n'}
+[1.343289] (cartographer) StdoutLine: {'line': b'[ 73%] Built target cartographer.mapping.internal.2d.scan_matching.ceres_scan_matcher_2d_test\n'}
+[1.348825] (cartographer) StdoutLine: {'line': b'[ 74%] Built target cartographer.mapping.internal.2d.scan_matching.fast_correlative_scan_matcher_2d_test\n'}
+[1.349208] (cartographer) StdoutLine: {'line': b'[ 74%] Built target cartographer.mapping.internal.2d.scan_matching.correlative_scan_matcher_test\n'}
+[1.355350] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.2d.scan_matching.tsdf_match_cost_function_2d_test\x1b[0m\n'}
+[1.356189] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.2d.tsd_value_converter_test\x1b[0m\n'}
+[1.370447] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.2d.tsdf_2d_test\x1b[0m\n'}
+[1.370701] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.2d.tsdf_range_data_inserter_2d_test\x1b[0m\n'}
+[1.370921] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.3d.local_trajectory_builder_3d_test\x1b[0m\n'}
+[1.377998] (cartographer) StdoutLine: {'line': b'[ 75%] Built target cartographer.mapping.internal.2d.scan_matching.interpolated_tsdf_2d_test\n'}
+[1.383401] (cartographer) StdoutLine: {'line': b'[ 76%] Built target cartographer.mapping.internal.2d.scan_matching.real_time_correlative_scan_matcher_2d_test\n'}
+[1.384707] (cartographer) StdoutLine: {'line': b'[ 76%] Built target cartographer.mapping.internal.2d.scan_matching.occupied_space_cost_function_2d_test\n'}
+[1.400178] (cartographer) StdoutLine: {'line': b'[ 76%] Built target cartographer.mapping.internal.2d.scan_matching.tsdf_match_cost_function_2d_test\n'}
+[1.400879] (-) TimerEvent: {}
+[1.402152] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.3d.pose_graph_3d_test\x1b[0m\n'}
+[1.403766] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.3d.rotation_parameterization_test\x1b[0m\n'}
+[1.408941] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.3d.scan_matching.ceres_scan_matcher_3d_test\x1b[0m\n'}
+[1.412014] (cartographer) StdoutLine: {'line': b'[ 77%] Built target cartographer.mapping.internal.2d.tsdf_range_data_inserter_2d_test\n'}
+[1.412275] (cartographer) StdoutLine: {'line': b'[ 77%] Built target cartographer.mapping.internal.2d.tsdf_2d_test\n'}
+[1.412776] (cartographer) StdoutLine: {'line': b'[ 78%] Built target cartographer.mapping.internal.2d.tsd_value_converter_test\n'}
+[1.418128] (cartographer) StdoutLine: {'line': b'[ 78%] Built target cartographer.mapping.internal.3d.local_trajectory_builder_3d_test\n'}
+[1.421551] (cartographer) StdoutLine: {'line': b'[ 78%] Built target cartographer.mapping.internal.3d.rotation_parameterization_test\n'}
+[1.434419] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.3d.scan_matching.fast_correlative_scan_matcher_3d_test\x1b[0m\n'}
+[1.435395] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.3d.scan_matching.intensity_cost_function_3d_test\x1b[0m\n'}
+[1.438586] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.3d.scan_matching.interpolated_grid_test\x1b[0m\n'}
+[1.440778] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.3d.scan_matching.real_time_correlative_scan_matcher_3d_test\x1b[0m\n'}
+[1.441182] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.3d.scan_matching.precomputation_grid_3d_test\x1b[0m\n'}
+[1.445058] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.3d.scan_matching.rotation_delta_cost_functor_3d_test\x1b[0m\n'}
+[1.452944] (cartographer) StdoutLine: {'line': b'[ 79%] Built target cartographer.mapping.internal.3d.pose_graph_3d_test\n'}
+[1.465619] (cartographer) StdoutLine: {'line': b'[ 80%] Built target cartographer.mapping.internal.3d.scan_matching.ceres_scan_matcher_3d_test\n'}
+[1.482491] (cartographer) StdoutLine: {'line': b'[ 81%] Built target cartographer.mapping.internal.3d.scan_matching.interpolated_grid_test\n'}
+[1.482903] (cartographer) StdoutLine: {'line': b'[ 81%] Built target cartographer.mapping.internal.3d.scan_matching.real_time_correlative_scan_matcher_3d_test\n'}
+[1.483215] (cartographer) StdoutLine: {'line': b'[ 81%] Built target cartographer.mapping.internal.3d.scan_matching.intensity_cost_function_3d_test\n'}
+[1.484686] (cartographer) StdoutLine: {'line': b'[ 82%] Built target cartographer.mapping.internal.3d.scan_matching.rotation_delta_cost_functor_3d_test\n'}
+[1.486512] (cartographer) StdoutLine: {'line': b'[ 83%] Built target cartographer.mapping.internal.3d.scan_matching.precomputation_grid_3d_test\n'}
+[1.489944] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.3d.scan_matching.rotational_scan_matcher_test\x1b[0m\n'}
+[1.494915] (cartographer) StdoutLine: {'line': b'[ 83%] Built target cartographer.mapping.internal.3d.scan_matching.fast_correlative_scan_matcher_3d_test\n'}
+[1.498227] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.connected_components_test\x1b[0m\n'}
+[1.501013] (-) TimerEvent: {}
+[1.504851] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.optimization.cost_functions.landmark_cost_function_2d_test\x1b[0m\n'}
+[1.505097] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.constraints.constraint_builder_2d_test\x1b[0m\n'}
+[1.505674] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.constraints.constraint_builder_3d_test\x1b[0m\n'}
+[1.506444] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.motion_filter_test\x1b[0m\n'}
+[1.512891] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.optimization.cost_functions.landmark_cost_function_3d_test\x1b[0m\n'}
+[1.536688] (cartographer) StdoutLine: {'line': b'[ 83%] Built target cartographer.mapping.internal.3d.scan_matching.rotational_scan_matcher_test\n'}
+[1.537792] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.optimization.cost_functions.spa_cost_function_2d_test\x1b[0m\n'}
+[1.549970] (cartographer) StdoutLine: {'line': b'[ 84%] Built target cartographer.mapping.internal.optimization.cost_functions.landmark_cost_function_2d_test\n'}
+[1.550588] (cartographer) StdoutLine: {'line': b'[ 85%] Built target cartographer.mapping.internal.connected_components_test\n'}
+[1.550850] (cartographer) StdoutLine: {'line': b'[ 85%] Built target cartographer.mapping.internal.constraints.constraint_builder_2d_test\n'}
+[1.554837] (cartographer) StdoutLine: {'line': b'[ 86%] Built target cartographer.mapping.internal.constraints.constraint_builder_3d_test\n'}
+[1.560013] (cartographer) StdoutLine: {'line': b'[ 86%] Built target cartographer.mapping.internal.motion_filter_test\n'}
+[1.563444] (cartographer) StdoutLine: {'line': b'[ 86%] Built target cartographer.mapping.internal.optimization.cost_functions.landmark_cost_function_3d_test\n'}
+[1.568553] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.optimization.optimization_problem_3d_test\x1b[0m\n'}
+[1.573550] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.trajectory_connectivity_state_test\x1b[0m\n'}
+[1.574114] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.range_data_collator_test\x1b[0m\n'}
+[1.574672] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.pose_extrapolator_test\x1b[0m\n'}
+[1.578555] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.map_builder_test\x1b[0m\n'}
+[1.582869] (cartographer) StdoutLine: {'line': b'[ 87%] Built target cartographer.mapping.internal.optimization.cost_functions.spa_cost_function_2d_test\n'}
+[1.585392] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.pose_graph_test\x1b[0m\n'}
+[1.601110] (-) TimerEvent: {}
+[1.601628] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.pose_graph_trimmer_test\x1b[0m\n'}
+[1.610556] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.probability_values_test\x1b[0m\n'}
+[1.613924] (cartographer) StdoutLine: {'line': b'[ 87%] Built target cartographer.mapping.internal.optimization.optimization_problem_3d_test\n'}
+[1.620999] (cartographer) StdoutLine: {'line': b'[ 87%] Built target cartographer.mapping.internal.trajectory_connectivity_state_test\n'}
+[1.621610] (cartographer) StdoutLine: {'line': b'[ 87%] Built target cartographer.mapping.pose_extrapolator_test\n'}
+[1.622090] (cartographer) StdoutLine: {'line': b'[ 88%] Built target cartographer.mapping.internal.range_data_collator_test\n'}
+[1.627216] (cartographer) StdoutLine: {'line': b'[ 89%] Built target cartographer.mapping.map_builder_test\n'}
+[1.639972] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.submaps_test\x1b[0m\n'}
+[1.640530] (cartographer) StdoutLine: {'line': b'[ 90%] Built target cartographer.mapping.pose_graph_test\n'}
+[1.644354] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.trajectory_node_test\x1b[0m\n'}
+[1.645216] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.mapping.value_conversion_tables_test\x1b[0m\n'}
+[1.653076] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.sensor.compressed_point_cloud_test\x1b[0m\n'}
+[1.653805] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.sensor.internal.collator_test\x1b[0m\n'}
+[1.654062] (cartographer) StdoutLine: {'line': b'[ 91%] Built target cartographer.mapping.probability_values_test\n'}
+[1.655030] (cartographer) StdoutLine: {'line': b'[ 91%] Built target cartographer.mapping.pose_graph_trimmer_test\n'}
+[1.674085] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.sensor.internal.ordered_multi_queue_test\x1b[0m\n'}
+[1.675158] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.sensor.internal.trajectory_collator_test\x1b[0m\n'}
+[1.681745] (cartographer) StdoutLine: {'line': b'[ 91%] Built target cartographer.mapping.submaps_test\n'}
+[1.682051] (cartographer) StdoutLine: {'line': b'[ 91%] Built target cartographer.mapping.value_conversion_tables_test\n'}
+[1.690637] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.sensor.internal.voxel_filter_test\x1b[0m\n'}
+[1.691166] (cartographer) StdoutLine: {'line': b'[ 92%] Built target cartographer.mapping.trajectory_node_test\n'}
+[1.701170] (cartographer) StdoutLine: {'line': b'[ 93%] Built target cartographer.sensor.compressed_point_cloud_test\n'}
+[1.701429] (-) TimerEvent: {}
+[1.702499] (cartographer) StdoutLine: {'line': b'[ 93%] Built target cartographer.sensor.internal.collator_test\n'}
+[1.702942] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.sensor.landmark_data_test\x1b[0m\n'}
+[1.712390] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.sensor.map_by_time_test\x1b[0m\n'}
+[1.717072] (cartographer) StdoutLine: {'line': b'[ 94%] Built target cartographer.sensor.internal.ordered_multi_queue_test\n'}
+[1.721190] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.sensor.point_cloud_test\x1b[0m\n'}
+[1.724466] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.sensor.range_data_test\x1b[0m\n'}
+[1.724749] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.transform.rigid_transform_test\x1b[0m\n'}
+[1.728361] (cartographer) StdoutLine: {'line': b'[ 95%] Built target cartographer.sensor.internal.trajectory_collator_test\n'}
+[1.737302] (cartographer) StdoutLine: {'line': b'[ 95%] Built target cartographer.sensor.internal.voxel_filter_test\n'}
+[1.738998] (cartographer_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.751814] (cartographer) StdoutLine: {'line': b'[ 96%] Built target cartographer.sensor.landmark_data_test\n'}
+[1.752091] (cartographer) StdoutLine: {'line': b'[ 96%] Built target cartographer.sensor.map_by_time_test\n'}
+[1.755102] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.transform.timestamped_transform_test\x1b[0m\n'}
+[1.757017] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.transform.transform_interpolation_buffer_test\x1b[0m\n'}
+[1.762032] (cartographer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer.transform.transform_test\x1b[0m\n'}
+[1.766151] (cartographer) StdoutLine: {'line': b'[ 97%] Built target cartographer.sensor.point_cloud_test\n'}
+[1.768550] (cartographer) StdoutLine: {'line': b'[ 98%] Built target cartographer.transform.rigid_transform_test\n'}
+[1.774206] (cartographer) StdoutLine: {'line': b'[ 98%] Built target cartographer.sensor.range_data_test\n'}
+[1.792510] (cartographer) StdoutLine: {'line': b'[100%] Built target cartographer.transform.transform_interpolation_buffer_test\n'}
+[1.792790] (cartographer) StdoutLine: {'line': b'[100%] Built target cartographer.transform.timestamped_transform_test\n'}
+[1.795277] (cartographer) StdoutLine: {'line': b'[100%] Built target cartographer.transform.transform_test\n'}
+[1.801537] (-) TimerEvent: {}
+[1.809874] (cartographer) CommandEnded: {'returncode': 0}
+[1.901659] (-) TimerEvent: {}
+[2.001909] (-) TimerEvent: {}
+[2.102149] (-) TimerEvent: {}
+[2.143582] (cartographer_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.171394] (cartographer_ros_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.197343] (cartographer_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.197595] (cartographer_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.197757] (cartographer_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.202235] (-) TimerEvent: {}
+[2.248926] (cartographer_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[2.250135] (cartographer_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[2.272217] (cartographer_ros_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.302315] (-) TimerEvent: {}
+[2.377131] (cartographer_ros_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.380796] (cartographer_ros_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/user/cartographer_ws/build/cartographer_ros_msgs\n'}
+[2.390785] (cartographer_ros_msgs) CommandEnded: {'returncode': 0}
+[2.392680] (cartographer_ros_msgs) JobProgress: {'identifier': 'cartographer_ros_msgs', 'progress': 'build'}
+[2.393045] (cartographer_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/cartographer_ws/build/cartographer_ros_msgs', '--', '-j8', '-l8'], 'cwd': '/home/user/cartographer_ws/build/cartographer_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja_JP:ja'), ('USER', 'user'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/user/cartographer_ws/install/cartographer_rviz/lib:/home/user/cartographer_ws/install/cartographer_ros/lib:/home/user/cartographer_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1530'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8178f10dc8b6ee78d0f47c1e667feffe'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/user/cartographer_ws/install:/home/user/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/user/cartographer_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/user/cartographer_ws/install/cartographer/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/user/cartographer_ws/install/cartographer/bin:/opt/ros/humble/bin:/home/user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu4:@/tmp/.ICE-unix/1530,unix/Ubuntu4:/tmp/.ICE-unix/1530'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a4623f77_4bdf_4c2a_93c9_05c0a332c1f6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WI9UP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.137'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '31'), ('AMENT_PREFIX_PATH', '/home/user/cartographer_ws/install/cartographer_rviz:/home/user/cartographer_ws/install/cartographer_ros:/home/user/cartographer_ws/install/cartographer_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/user/cartographer_ws/build/cartographer_ros_msgs'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8178f10dc8b6ee78d0f47c1e667feffe'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/user/cartographer_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/user/cartographer_ws/install/cartographer_rviz:/home/user/cartographer_ws/install/cartographer_ros:/home/user/cartographer_ws/install/cartographer_ros_msgs:/home/user/cartographer_ws/install/cartographer:/opt/ros/humble')]), 'shell': False}
+[2.402423] (-) TimerEvent: {}
+[2.452024] (cartographer_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartographer_ros_msgs__rosidl_generator_c\x1b[0m\n'}
+[2.457324] (cartographer_ros_msgs) StderrLine: {'line': b"failed to create symbolic link '/home/user/cartographer_ws/build/cartographer_ros_msgs/ament_cmake_python/cartographer_ros_msgs/cartographer_ros_msgs' because existing path cannot be removed: Is a directory\n"}
+[2.461591] (cartographer_ros_msgs) StdoutLine: {'line': b'[  0%] Built target cartographer_ros_msgs__cpp\n'}
+[2.462415] (cartographer_ros_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_cartographer_ros_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_cartographer_ros_msgs] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 1\n'}
+[2.462728] (cartographer_ros_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_cartographer_ros_msgs.dir/all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[2.462897] (cartographer_ros_msgs) StderrLine: {'line': b'gmake[1]: *** \xe6\x9c\xaa\xe5\xae\x8c\xe4\xba\x86\xe3\x81\xae\xe3\x82\xb8\xe3\x83\xa7\xe3\x83\x96\xe3\x82\x92\xe5\xbe\x85\xe3\x81\xa3\xe3\x81\xa6\xe3\x81\x84\xe3\x81\xbe\xe3\x81\x99....\n'}
+[2.473376] (cartographer_ros_msgs) StdoutLine: {'line': b'[ 12%] Built target cartographer_ros_msgs__rosidl_generator_c\n'}
+[2.474853] (cartographer_ros_msgs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[2.476798] (cartographer_ros_msgs) CommandEnded: {'returncode': 2}
+[2.502616] (-) TimerEvent: {}
+[2.602865] (-) TimerEvent: {}
+[2.676596] (cartographer) JobProgress: {'identifier': 'cartographer', 'progress': 'install'}
+[2.687594] (cartographer) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/cartographer_ws/build/cartographer'], 'cwd': '/home/user/cartographer_ws/build/cartographer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja_JP:ja'), ('USER', 'user'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/user/cartographer_ws/install/cartographer_rviz/lib:/home/user/cartographer_ws/install/cartographer_ros/lib:/home/user/cartographer_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1530'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8178f10dc8b6ee78d0f47c1e667feffe'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/user/cartographer_ws/install:/home/user/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/user/cartographer_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/user/cartographer_ws/install/cartographer/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/user/cartographer_ws/install/cartographer/bin:/opt/ros/humble/bin:/home/user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu4:@/tmp/.ICE-unix/1530,unix/Ubuntu4:/tmp/.ICE-unix/1530'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a4623f77_4bdf_4c2a_93c9_05c0a332c1f6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WI9UP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.137'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '31'), ('AMENT_PREFIX_PATH', '/home/user/cartographer_ws/install/cartographer_rviz:/home/user/cartographer_ws/install/cartographer_ros:/home/user/cartographer_ws/install/cartographer_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/user/cartographer_ws/build/cartographer'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8178f10dc8b6ee78d0f47c1e667feffe'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/user/cartographer_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/user/cartographer_ws/install/cartographer_rviz:/home/user/cartographer_ws/install/cartographer_ros:/home/user/cartographer_ws/install/cartographer_ros_msgs:/home/user/cartographer_ws/install/cartographer:/opt/ros/humble')]), 'shell': False}
+[2.699176] (cartographer) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[2.699666] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/share/cartographer/package.xml\n'}
+[2.699864] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/share/cartographer//configuration_files\n'}
+[2.699984] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/share/cartographer//configuration_files/trajectory_builder_2d.lua\n'}
+[2.700106] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/share/cartographer//configuration_files/trajectory_builder.lua\n'}
+[2.700220] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/share/cartographer//configuration_files/map_builder_server.lua\n'}
+[2.700332] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/share/cartographer//configuration_files/trajectory_builder_3d.lua\n'}
+[2.700471] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/share/cartographer//configuration_files/map_builder.lua\n'}
+[2.700691] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/share/cartographer//configuration_files/pose_graph.lua\n'}
+[2.700805] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/share/cartographer//cmake\n'}
+[2.700923] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/share/cartographer//cmake/functions.cmake\n'}
+[2.700993] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/share/cartographer//cmake/modules\n'}
+[2.701062] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/share/cartographer//cmake/modules/FindEigen3.cmake\n'}
+[2.701129] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/share/cartographer//cmake/modules/FindLuaGoogle.cmake\n'}
+[2.701197] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/share/cartographer//cmake/modules/FindSphinx.cmake\n'}
+[2.701263] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/share/cartographer//cmake/modules/FindGMock.cmake\n'}
+[2.701330] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/bin/cartographer_autogenerate_ground_truth\n'}
+[2.701396] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/bin/cartographer_compute_relations_metrics\n'}
+[2.701572] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/bin/cartographer_pbstream\n'}
+[2.701984] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/bin/cartographer_print_configuration\n'}
+[2.702150] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/lib/libcartographer.a\n'}
+[2.702307] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/common/configuration_file_resolver.h\n'}
+[2.702461] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/common/fixed_ratio_sampler.h\n'}
+[2.702744] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/common/histogram.h\n'}
+[2.702970] (-) TimerEvent: {}
+[2.703142] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/common/lua.h\n'}
+[2.703356] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/common/lua_parameter_dictionary.h\n'}
+[2.703548] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/common/math.h\n'}
+[2.703793] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/common/port.h\n'}
+[2.703917] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/common/task.h\n'}
+[2.704037] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/common/thread_pool.h\n'}
+[2.704156] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/common/time.h\n'}
+[2.704274] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/ground_truth/autogenerate_ground_truth.h\n'}
+[2.704393] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/ground_truth/relations_text_file.h\n'}
+[2.704512] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/io/color.h\n'}
+[2.704630] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/io/coloring_points_processor.h\n'}
+[2.704979] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/io/counting_points_processor.h\n'}
+[2.705099] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/io/draw_trajectories.h\n'}
+[2.705218] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/io/file_writer.h\n'}
+[2.705336] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/io/fixed_ratio_sampling_points_processor.h\n'}
+[2.705499] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/io/frame_id_filtering_points_processor.h\n'}
+[2.705623] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/io/hybrid_grid_points_processor.h\n'}
+[2.705755] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/io/image.h\n'}
+[2.705886] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/io/intensity_to_color_points_processor.h\n'}
+[2.706016] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/io/min_max_range_filtering_points_processor.h\n'}
+[2.706145] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/io/null_points_processor.h\n'}
+[2.706274] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/io/outlier_removing_points_processor.h\n'}
+[2.706405] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/io/pcd_writing_points_processor.h\n'}
+[2.706533] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/io/ply_writing_points_processor.h\n'}
+[2.706662] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/io/points_batch.h\n'}
+[2.706789] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/io/points_processor.h\n'}
+[2.706918] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/io/points_processor_pipeline_builder.h\n'}
+[2.707321] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/io/probability_grid_points_processor.h\n'}
+[2.707442] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/io/proto_stream.h\n'}
+[2.707583] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/io/proto_stream_deserializer.h\n'}
+[2.707887] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/io/proto_stream_interface.h\n'}
+[2.708015] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/io/serialization_format_migration.h\n'}
+[2.708134] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/io/submap_painter.h\n'}
+[2.708252] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/io/vertical_range_filtering_points_processor.h\n'}
+[2.708370] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/io/xray_points_processor.h\n'}
+[2.708495] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/io/xyz_writing_points_processor.h\n'}
+[2.708623] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/2d/grid_2d.h\n'}
+[2.708753] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/2d/map_limits.h\n'}
+[2.709115] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/2d/probability_grid.h\n'}
+[2.709235] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/2d/probability_grid_range_data_inserter_2d.h\n'}
+[2.709355] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/2d/submap_2d.h\n'}
+[2.709551] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/2d/xy_index.h\n'}
+[2.709704] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/3d/hybrid_grid.h\n'}
+[2.709824] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/3d/range_data_inserter_3d.h\n'}
+[2.709943] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/3d/submap_3d.h\n'}
+[2.710061] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/detect_floors.h\n'}
+[2.710179] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/grid_interface.h\n'}
+[2.710297] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/id.h\n'}
+[2.710470] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/imu_tracker.h\n'}
+[2.710759] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/map_builder.h\n'}
+[2.710879] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/map_builder_interface.h\n'}
+[2.710999] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/pose_extrapolator.h\n'}
+[2.711163] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/pose_extrapolator_interface.h\n'}
+[2.711290] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/pose_graph.h\n'}
+[2.711413] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/pose_graph_interface.h\n'}
+[2.711723] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/pose_graph_trimmer.h\n'}
+[2.711852] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/probability_values.h\n'}
+[2.711977] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/range_data_inserter_interface.h\n'}
+[2.712096] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/submaps.h\n'}
+[2.712214] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/trajectory_builder_interface.h\n'}
+[2.712333] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/trajectory_node.h\n'}
+[2.712463] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/value_conversion_tables.h\n'}
+[2.712587] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/metrics/counter.h\n'}
+[2.712776] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/metrics/family_factory.h\n'}
+[2.713014] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/metrics/gauge.h\n'}
+[2.713130] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/metrics/histogram.h\n'}
+[2.713249] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/metrics/register.h\n'}
+[2.713362] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/sensor/collator_interface.h\n'}
+[2.713470] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/sensor/compressed_point_cloud.h\n'}
+[2.713579] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/sensor/data.h\n'}
+[2.713722] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/sensor/fixed_frame_pose_data.h\n'}
+[2.714052] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/sensor/imu_data.h\n'}
+[2.714385] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/sensor/landmark_data.h\n'}
+[2.714677] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/sensor/map_by_time.h\n'}
+[2.714803] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/sensor/odometry_data.h\n'}
+[2.714964] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/sensor/point_cloud.h\n'}
+[2.715393] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/sensor/range_data.h\n'}
+[2.716069] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/sensor/rangefinder_point.h\n'}
+[2.716627] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/sensor/timed_point_cloud_data.h\n'}
+[2.716890] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/transform/rigid_transform.h\n'}
+[2.717065] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/transform/timestamped_transform.h\n'}
+[2.717239] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/transform/transform.h\n'}
+[2.717422] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/transform/transform_interpolation_buffer.h\n'}
+[2.717590] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/io/fake_file_writer.h\n'}
+[2.717856] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/transform/rigid_transform_test_helpers.h\n'}
+[2.718032] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/common/proto/ceres_solver_options.pb.h\n'}
+[2.718202] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/ground_truth/proto/relations.pb.h\n'}
+[2.718370] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/cell_limits_2d.pb.h\n'}
+[2.718539] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/connected_components.pb.h\n'}
+[2.718794] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/grid_2d.pb.h\n'}
+[2.718964] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/grid_2d_options.pb.h\n'}
+[2.719122] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/hybrid_grid.pb.h\n'}
+[2.719289] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/local_trajectory_builder_options_2d.pb.h\n'}
+[2.719457] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/local_trajectory_builder_options_3d.pb.h\n'}
+[2.719734] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/map_builder_options.pb.h\n'}
+[2.719910] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/map_limits.pb.h\n'}
+[2.720078] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/motion_filter_options.pb.h\n'}
+[2.720247] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/normal_estimation_options_2d.pb.h\n'}
+[2.720411] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/pose_extrapolator_options.pb.h\n'}
+[2.720576] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/pose_graph.pb.h\n'}
+[2.720747] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/pose_graph/constraint_builder_options.pb.h\n'}
+[2.721018] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/pose_graph/optimization_problem_options.pb.h\n'}
+[2.721164] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/pose_graph_options.pb.h\n'}
+[2.721310] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/probability_grid.pb.h\n'}
+[2.721443] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/probability_grid_range_data_inserter_options_2d.pb.h\n'}
+[2.721586] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/range_data_inserter_options.pb.h\n'}
+[2.721763] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/range_data_inserter_options_3d.pb.h\n'}
+[2.721889] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_2d.pb.h\n'}
+[2.722016] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_3d.pb.h\n'}
+[2.722144] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_2d.pb.h\n'}
+[2.722256] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_3d.pb.h\n'}
+[2.722390] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/scan_matching/real_time_correlative_scan_matcher_options.pb.h\n'}
+[2.722512] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/serialization.pb.h\n'}
+[2.722621] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/submap.pb.h\n'}
+[2.722791] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/submap_visualization.pb.h\n'}
+[2.722899] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/submaps_options_2d.pb.h\n'}
+[2.723007] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/submaps_options_3d.pb.h\n'}
+[2.723120] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/trajectory.pb.h\n'}
+[2.723260] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/trajectory_builder_options.pb.h\n'}
+[2.723389] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/trajectory_node_data.pb.h\n'}
+[2.723505] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/tsdf_2d.pb.h\n'}
+[2.723634] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/tsdf_range_data_inserter_options_2d.pb.h\n'}
+[2.723908] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/sensor/proto/adaptive_voxel_filter_options.pb.h\n'}
+[2.724061] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/sensor/proto/sensor.pb.h\n'}
+[2.724200] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/transform/proto/timestamped_transform.pb.h\n'}
+[2.724311] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/include/cartographer/transform/proto/transform.pb.h\n'}
+[2.724418] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/share/cartographer/cmake/CartographerTargets.cmake\n'}
+[2.724527] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/share/cartographer/cmake/CartographerTargets-release.cmake\n'}
+[2.724652] (cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/user/cartographer_ws/install/cartographer/share/cartographer/cartographer-config.cmake\n'}
+[2.724770] (cartographer) CommandEnded: {'returncode': 0}
+[2.803156] (-) TimerEvent: {}
+[2.903387] (-) TimerEvent: {}
+[3.003608] (-) TimerEvent: {}
+[3.031987] (cartographer_ros_msgs) JobEnded: {'identifier': 'cartographer_ros_msgs', 'rc': 2}
+[3.103700] (-) TimerEvent: {}
+[3.203962] (-) TimerEvent: {}
+[3.304180] (-) TimerEvent: {}
+[3.404435] (-) TimerEvent: {}
+[3.504699] (-) TimerEvent: {}
+[3.586665] (cartographer) JobEnded: {'identifier': 'cartographer', 'rc': 'SIGINT'}
+[3.597342] (cartographer_ros) JobSkipped: {'identifier': 'cartographer_ros'}
+[3.597516] (cartographer_rviz) JobSkipped: {'identifier': 'cartographer_rviz'}
+[3.597547] (-) EventReactorShutdown: {}

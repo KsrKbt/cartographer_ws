@@ -1,0 +1,205 @@
+[0.030s] Invoking command in '/home/user/cartographer_ws/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/slam_ws/install/turtlebot3_teleop:/home/user/slam_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/user/cartographer_ws/src/cartographer -DCMAKE_INSTALL_PREFIX=/home/user/cartographer_ws/install/cartographer
+[0.057s] -- Build type: Release
+[0.231s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[0.233s] -- Found required Ceres dependency: glog
+[0.234s] -- Found required Ceres dependency: gflags
+[0.235s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[0.390s] -- Configuring done
+[0.911s] -- Generating done
+[0.929s] -- Build files have been written to: /home/user/cartographer_ws/build/cartographer
+[0.939s] Invoked command in '/home/user/cartographer_ws/build/cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/slam_ws/install/turtlebot3_teleop:/home/user/slam_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/user/cartographer_ws/src/cartographer -DCMAKE_INSTALL_PREFIX=/home/user/cartographer_ws/install/cartographer
+[0.942s] Invoking command in '/home/user/cartographer_ws/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/slam_ws/install/turtlebot3_teleop:/home/user/slam_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/user/cartographer_ws/build/cartographer -- -j8 -l8
+[1.038s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[1.064s] [  0%] [34m[1mBuilding documentation.[0m
+[1.075s] [  1%] Built target gtest
+[1.080s] [  1%] Built target cartographer_detect_changes
+[1.094s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[1.120s] [  2%] Built target gmock
+[1.140s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[1.169s] [  2%] Built target gmock_main
+[1.272s] [35m[1mConsolidate compiler generated dependencies of target cartographer[0m
+[1.804s] [01mRunning Sphinx v4.3.2[39;49;00m
+[2.081s] [ 55%] Built target cartographer
+[2.095s] [01mloading pickled environment... [39;49;00mdone
+[2.102s] [01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[2.105s] [01mbuilding [html]: [39;49;00mtargets for 0 source files that are out of date
+[2.107s] [01mupdating environment: [39;49;00m0 added, 0 changed, 0 removed
+[2.107s] [01mlooking for now-outdated files... [39;49;00mnone found
+[2.108s] [01mno targets are out of date.[39;49;00m
+[2.108s] [01mbuild succeeded.[39;49;00m
+[2.108s] 
+[2.108s] The HTML pages are in html.
+[2.110s] [35m[1mConsolidate compiler generated dependencies of target cartographer_pbstream[0m
+[2.112s] [35m[1mConsolidate compiler generated dependencies of target cartographer_autogenerate_ground_truth[0m
+[2.112s] [35m[1mConsolidate compiler generated dependencies of target cartographer_compute_relations_metrics[0m
+[2.112s] [35m[1mConsolidate compiler generated dependencies of target cartographer_print_configuration[0m
+[2.119s] [35m[1mConsolidate compiler generated dependencies of target cartographer_test_library[0m
+[2.150s] [ 56%] Built target cartographer_pbstream
+[2.164s] [ 56%] Built target cartographer_print_configuration
+[2.173s] [ 57%] Built target cartographer_autogenerate_ground_truth
+[2.178s] [ 57%] Built target cartographer_compute_relations_metrics
+[2.197s] [ 58%] Built target cartographer_test_library
+[2.228s] [35m[1mConsolidate compiler generated dependencies of target cartographer.common.fixed_ratio_sampler_test[0m
+[2.229s] [35m[1mConsolidate compiler generated dependencies of target cartographer.common.configuration_files_test[0m
+[2.230s] [35m[1mConsolidate compiler generated dependencies of target cartographer.common.internal.rate_timer_test[0m
+[2.231s] [35m[1mConsolidate compiler generated dependencies of target cartographer.common.task_test[0m
+[2.232s] [35m[1mConsolidate compiler generated dependencies of target cartographer.common.internal.blocking_queue_test[0m
+[2.240s] [35m[1mConsolidate compiler generated dependencies of target cartographer.common.lua_parameter_dictionary_test[0m
+[2.248s] [35m[1mConsolidate compiler generated dependencies of target cartographer.common.math_test[0m
+[2.279s] [ 58%] Built target build_doc
+[2.281s] [ 58%] Built target cartographer.common.task_test
+[2.296s] [ 58%] Built target cartographer.common.internal.blocking_queue_test
+[2.299s] [ 59%] Built target cartographer.common.fixed_ratio_sampler_test
+[2.303s] [ 60%] Built target cartographer.common.internal.rate_timer_test
+[2.304s] [ 60%] Built target cartographer.common.configuration_files_test
+[2.314s] [35m[1mConsolidate compiler generated dependencies of target cartographer.common.thread_pool_test[0m
+[2.315s] [ 60%] Built target cartographer.common.lua_parameter_dictionary_test
+[2.316s] [35m[1mConsolidate compiler generated dependencies of target cartographer.io.fake_file_writer_test[0m
+[2.323s] [ 61%] Built target cartographer.common.math_test
+[2.330s] [35m[1mConsolidate compiler generated dependencies of target cartographer.io.internal.in_memory_proto_stream_test[0m
+[2.338s] [35m[1mConsolidate compiler generated dependencies of target cartographer.io.probability_grid_points_processor_test[0m
+[2.339s] [35m[1mConsolidate compiler generated dependencies of target cartographer.io.points_processor_pipeline_builder_test[0m
+[2.352s] [35m[1mConsolidate compiler generated dependencies of target cartographer.io.proto_stream_deserializer_test[0m
+[2.370s] [35m[1mConsolidate compiler generated dependencies of target cartographer.io.proto_stream_test[0m
+[2.371s] [35m[1mConsolidate compiler generated dependencies of target cartographer.io.serialization_format_migration_test[0m
+[2.374s] [ 62%] Built target cartographer.common.thread_pool_test
+[2.377s] [ 62%] Built target cartographer.io.fake_file_writer_test
+[2.394s] [ 63%] Built target cartographer.io.internal.in_memory_proto_stream_test
+[2.413s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.2d.map_limits_test[0m
+[2.414s] [ 63%] Built target cartographer.io.points_processor_pipeline_builder_test
+[2.418s] [ 64%] Built target cartographer.io.probability_grid_points_processor_test
+[2.419s] [ 64%] Built target cartographer.io.proto_stream_deserializer_test
+[2.420s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.2d.probability_grid_test[0m
+[2.431s] [ 65%] Built target cartographer.io.proto_stream_test
+[2.442s] [ 65%] Built target cartographer.io.serialization_format_migration_test
+[2.449s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.2d.range_data_inserter_2d_test[0m
+[2.453s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.2d.submap_2d_test[0m
+[2.463s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.2d.xy_index_test[0m
+[2.466s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.3d.range_data_inserter_3d_test[0m
+[2.467s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.3d.hybrid_grid_test[0m
+[2.481s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.3d.submap_3d_test[0m
+[2.499s] [ 66%] Built target cartographer.mapping.2d.map_limits_test
+[2.510s] [ 66%] Built target cartographer.mapping.2d.probability_grid_test
+[2.524s] [ 66%] Built target cartographer.mapping.2d.submap_2d_test
+[2.525s] [ 67%] Built target cartographer.mapping.2d.range_data_inserter_2d_test
+[2.536s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.id_test[0m
+[2.537s] [ 68%] Built target cartographer.mapping.2d.xy_index_test
+[2.550s] [ 69%] Built target cartographer.mapping.3d.range_data_inserter_3d_test
+[2.551s] [ 69%] Built target cartographer.mapping.3d.hybrid_grid_test
+[2.558s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.2d.overlapping_submaps_trimmer_2d_test[0m
+[2.562s] [ 69%] Built target cartographer.mapping.3d.submap_3d_test
+[2.573s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.imu_tracker_test[0m
+[2.574s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.2d.normal_estimation_2d_test[0m
+[2.579s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.2d.pose_graph_2d_test[0m
+[2.586s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.2d.ray_to_pixel_mask_test[0m
+[2.592s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.2d.scan_matching.ceres_scan_matcher_2d_test[0m
+[2.604s] [ 70%] Built target cartographer.mapping.id_test
+[2.612s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.2d.scan_matching.correlative_scan_matcher_test[0m
+[2.640s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.2d.scan_matching.fast_correlative_scan_matcher_2d_test[0m
+[2.642s] [ 70%] Built target cartographer.mapping.internal.2d.overlapping_submaps_trimmer_2d_test
+[2.646s] [ 70%] Built target cartographer.mapping.imu_tracker_test
+[2.657s] [ 71%] Built target cartographer.mapping.internal.2d.normal_estimation_2d_test
+[2.665s] [ 72%] Built target cartographer.mapping.internal.2d.pose_graph_2d_test
+[2.667s] [ 72%] Built target cartographer.mapping.internal.2d.ray_to_pixel_mask_test
+[2.669s] [ 73%] Built target cartographer.mapping.internal.2d.scan_matching.ceres_scan_matcher_2d_test
+[2.683s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.2d.scan_matching.interpolated_tsdf_2d_test[0m
+[2.690s] [ 73%] Built target cartographer.mapping.internal.2d.scan_matching.correlative_scan_matcher_test
+[2.695s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.2d.scan_matching.occupied_space_cost_function_2d_test[0m
+[2.695s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.2d.scan_matching.tsdf_match_cost_function_2d_test[0m
+[2.704s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.2d.scan_matching.real_time_correlative_scan_matcher_2d_test[0m
+[2.705s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.2d.tsd_value_converter_test[0m
+[2.718s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.2d.tsdf_2d_test[0m
+[2.720s] [ 74%] Built target cartographer.mapping.internal.2d.scan_matching.fast_correlative_scan_matcher_2d_test
+[2.756s] [ 75%] Built target cartographer.mapping.internal.2d.scan_matching.interpolated_tsdf_2d_test
+[2.756s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.3d.local_trajectory_builder_3d_test[0m
+[2.757s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.2d.tsdf_range_data_inserter_2d_test[0m
+[2.777s] [ 75%] Built target cartographer.mapping.internal.2d.scan_matching.tsdf_match_cost_function_2d_test
+[2.780s] [ 75%] Built target cartographer.mapping.internal.2d.scan_matching.occupied_space_cost_function_2d_test
+[2.781s] [ 76%] Built target cartographer.mapping.internal.2d.tsd_value_converter_test
+[2.791s] [ 77%] Built target cartographer.mapping.internal.2d.scan_matching.real_time_correlative_scan_matcher_2d_test
+[2.801s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.3d.pose_graph_3d_test[0m
+[2.803s] [ 77%] Built target cartographer.mapping.internal.2d.tsdf_2d_test
+[2.809s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.3d.rotation_parameterization_test[0m
+[2.814s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.3d.scan_matching.ceres_scan_matcher_3d_test[0m
+[2.817s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.3d.scan_matching.fast_correlative_scan_matcher_3d_test[0m
+[2.836s] [ 77%] Built target cartographer.mapping.internal.3d.local_trajectory_builder_3d_test
+[2.836s] [ 78%] Built target cartographer.mapping.internal.2d.tsdf_range_data_inserter_2d_test
+[2.836s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.3d.scan_matching.intensity_cost_function_3d_test[0m
+[2.840s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.3d.scan_matching.interpolated_grid_test[0m
+[2.855s] [ 78%] Built target cartographer.mapping.internal.3d.rotation_parameterization_test
+[2.872s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.3d.scan_matching.precomputation_grid_3d_test[0m
+[2.880s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.3d.scan_matching.real_time_correlative_scan_matcher_3d_test[0m
+[2.881s] [ 79%] Built target cartographer.mapping.internal.3d.pose_graph_3d_test
+[2.888s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.3d.scan_matching.rotation_delta_cost_functor_3d_test[0m
+[2.898s] [ 80%] Built target cartographer.mapping.internal.3d.scan_matching.ceres_scan_matcher_3d_test
+[2.905s] [ 80%] Built target cartographer.mapping.internal.3d.scan_matching.fast_correlative_scan_matcher_3d_test
+[2.911s] [ 81%] Built target cartographer.mapping.internal.3d.scan_matching.intensity_cost_function_3d_test
+[2.914s] [ 81%] Built target cartographer.mapping.internal.3d.scan_matching.interpolated_grid_test
+[2.918s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.3d.scan_matching.rotational_scan_matcher_test[0m
+[2.941s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.connected_components_test[0m
+[2.945s] [ 81%] Built target cartographer.mapping.internal.3d.scan_matching.real_time_correlative_scan_matcher_3d_test
+[2.950s] [ 82%] Built target cartographer.mapping.internal.3d.scan_matching.precomputation_grid_3d_test
+[2.951s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.constraints.constraint_builder_2d_test[0m
+[2.952s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.constraints.constraint_builder_3d_test[0m
+[2.955s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.motion_filter_test[0m
+[2.958s] [ 83%] Built target cartographer.mapping.internal.3d.scan_matching.rotation_delta_cost_functor_3d_test
+[2.990s] [ 83%] Built target cartographer.mapping.internal.3d.scan_matching.rotational_scan_matcher_test
+[2.992s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.optimization.cost_functions.spa_cost_function_2d_test[0m
+[2.994s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.optimization.cost_functions.landmark_cost_function_3d_test[0m
+[3.006s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.optimization.cost_functions.landmark_cost_function_2d_test[0m
+[3.014s] [ 84%] Built target cartographer.mapping.internal.connected_components_test
+[3.024s] [ 84%] Built target cartographer.mapping.internal.constraints.constraint_builder_2d_test
+[3.032s] [ 84%] Built target cartographer.mapping.internal.motion_filter_test
+[3.035s] [ 85%] Built target cartographer.mapping.internal.constraints.constraint_builder_3d_test
+[3.042s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.optimization.optimization_problem_3d_test[0m
+[3.058s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.range_data_collator_test[0m
+[3.067s] [ 86%] Built target cartographer.mapping.internal.optimization.cost_functions.spa_cost_function_2d_test
+[3.072s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.internal.trajectory_connectivity_state_test[0m
+[3.072s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.map_builder_test[0m
+[3.074s] [ 86%] Built target cartographer.mapping.internal.optimization.cost_functions.landmark_cost_function_3d_test
+[3.085s] [ 87%] Built target cartographer.mapping.internal.optimization.cost_functions.landmark_cost_function_2d_test
+[3.088s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.pose_extrapolator_test[0m
+[3.109s] [ 87%] Built target cartographer.mapping.internal.optimization.optimization_problem_3d_test
+[3.113s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.pose_graph_test[0m
+[3.117s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.pose_graph_trimmer_test[0m
+[3.126s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.probability_values_test[0m
+[3.137s] [ 88%] Built target cartographer.mapping.internal.range_data_collator_test
+[3.145s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.submaps_test[0m
+[3.152s] [ 89%] Built target cartographer.mapping.map_builder_test
+[3.159s] [ 89%] Built target cartographer.mapping.internal.trajectory_connectivity_state_test
+[3.172s] [ 89%] Built target cartographer.mapping.pose_extrapolator_test
+[3.173s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.trajectory_node_test[0m
+[3.191s] [35m[1mConsolidate compiler generated dependencies of target cartographer.mapping.value_conversion_tables_test[0m
+[3.192s] [ 90%] Built target cartographer.mapping.pose_graph_test
+[3.197s] [ 91%] Built target cartographer.mapping.probability_values_test
+[3.198s] [35m[1mConsolidate compiler generated dependencies of target cartographer.sensor.compressed_point_cloud_test[0m
+[3.209s] [35m[1mConsolidate compiler generated dependencies of target cartographer.sensor.internal.collator_test[0m
+[3.212s] [ 91%] Built target cartographer.mapping.pose_graph_trimmer_test
+[3.215s] [ 91%] Built target cartographer.mapping.submaps_test
+[3.235s] [35m[1mConsolidate compiler generated dependencies of target cartographer.sensor.internal.ordered_multi_queue_test[0m
+[3.240s] [35m[1mConsolidate compiler generated dependencies of target cartographer.sensor.internal.trajectory_collator_test[0m
+[3.245s] [ 92%] Built target cartographer.mapping.trajectory_node_test
+[3.249s] [35m[1mConsolidate compiler generated dependencies of target cartographer.sensor.landmark_data_test[0m
+[3.251s] [ 92%] Built target cartographer.mapping.value_conversion_tables_test
+[3.253s] [35m[1mConsolidate compiler generated dependencies of target cartographer.sensor.internal.voxel_filter_test[0m
+[3.279s] [ 93%] Built target cartographer.sensor.compressed_point_cloud_test
+[3.281s] [35m[1mConsolidate compiler generated dependencies of target cartographer.sensor.map_by_time_test[0m
+[3.286s] [35m[1mConsolidate compiler generated dependencies of target cartographer.sensor.point_cloud_test[0m
+[3.296s] [ 93%] Built target cartographer.sensor.internal.collator_test
+[3.318s] [ 94%] Built target cartographer.sensor.internal.ordered_multi_queue_test
+[3.319s] [ 95%] Built target cartographer.sensor.internal.trajectory_collator_test
+[3.319s] [35m[1mConsolidate compiler generated dependencies of target cartographer.sensor.range_data_test[0m
+[3.322s] [ 96%] Built target cartographer.sensor.landmark_data_test
+[3.331s] [35m[1mConsolidate compiler generated dependencies of target cartographer.transform.rigid_transform_test[0m
+[3.333s] [ 96%] Built target cartographer.sensor.internal.voxel_filter_test
+[3.343s] [ 96%] Built target cartographer.sensor.map_by_time_test
+[3.354s] [35m[1mConsolidate compiler generated dependencies of target cartographer.transform.timestamped_transform_test[0m
+[3.354s] [35m[1mConsolidate compiler generated dependencies of target cartographer.transform.transform_interpolation_buffer_test[0m
+[3.363s] [35m[1mConsolidate compiler generated dependencies of target cartographer.transform.transform_test[0m
+[3.373s] [ 97%] Built target cartographer.sensor.point_cloud_test
+[3.386s] [ 97%] Built target cartographer.sensor.range_data_test
+[3.392s] [ 98%] Built target cartographer.transform.rigid_transform_test
+[3.409s] [ 98%] Built target cartographer.transform.timestamped_transform_test
+[3.414s] [100%] Built target cartographer.transform.transform_interpolation_buffer_test
+[3.419s] [100%] Built target cartographer.transform.transform_test
+[3.441s] Invoked command in '/home/user/cartographer_ws/build/cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/slam_ws/install/turtlebot3_teleop:/home/user/slam_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/user/cartographer_ws/build/cartographer -- -j8 -l8

@@ -1,0 +1,130 @@
+[0.020s] Invoking command in '/home/user/cartographer_ws/build/cartographer_rviz': CMAKE_PREFIX_PATH=/home/user/cartographer_ws/install/cartographer_ros:/home/user/cartographer_ws/install/cartographer_ros_msgs:/home/user/cartographer_ws/install/cartographer:/home/user/cartographer_ws/install/cartographer_rviz:/home/user/slam_ws/install/turtlebot3:/home/user/slam_ws/install/turtlebot3_simulations:/home/user/slam_ws/install/turtlebot3_bringup:/home/user/slam_ws/install/turtlebot3_node:/home/user/slam_ws/install/turtlebot3_navigation2:/home/user/slam_ws/install/turtlebot3_fake_node:/home/user/slam_ws/install/turtlebot3_msgs:/home/user/slam_ws/install/turtlebot3_gazebo:/home/user/slam_ws/install/turtlebot3_description:/home/user/slam_ws/install/turtlebot3_cartographer:/home/user/slam_ws/install/ld08_driver:/home/user/slam_ws/install/hls_lfcd_lds_driver:/home/user/slam_ws/install/dynamixel_sdk_examples:/home/user/slam_ws/install/dynamixel_sdk_custom_interfaces:/home/user/slam_ws/install/dynamixel_sdk:/home/user/slam_ws/install/cartographer_rviz:/home/user/slam_ws/install/cartographer_ros:/home/user/slam_ws/install/cartographer_ros_msgs:/home/user/slam_ws/install/cartographer:/home/user/slam_ws/install/turtlebot3_teleop:/home/user/slam_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/user/cartographer_ws/install/cartographer_ros_msgs/lib:/home/user/cartographer_ws/install/cartographer_rviz/lib:/home/user/cartographer_ws/install/cartographer_ros/lib:/home/user/slam_ws/install/turtlebot3_msgs/lib:/home/user/slam_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/user/slam_ws/install/dynamixel_sdk/lib:/home/user/slam_ws/install/cartographer_rviz/lib:/home/user/slam_ws/install/cartographer_ros/lib:/home/user/slam_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/user/cartographer_ws/src/cartographer_ros/cartographer_rviz -DCMAKE_INSTALL_PREFIX=/home/user/cartographer_ws/install/cartographer_rviz
+[0.094s] -- The C compiler identification is GNU 11.4.0
+[0.162s] -- The CXX compiler identification is GNU 11.4.0
+[0.170s] -- Detecting C compiler ABI info
+[0.252s] -- Detecting C compiler ABI info - done
+[0.260s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.260s] -- Detecting C compile features
+[0.260s] -- Detecting C compile features - done
+[0.264s] -- Detecting CXX compiler ABI info
+[0.359s] -- Detecting CXX compiler ABI info - done
+[0.367s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.367s] -- Detecting CXX compile features
+[0.367s] -- Detecting CXX compile features - done
+[0.373s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.555s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.697s] -- Looking for pthread.h
+[0.785s] -- Looking for pthread.h - found
+[0.785s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.880s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.881s] -- Found Threads: TRUE  
+[0.893s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[0.905s] -- Found required Ceres dependency: glog
+[0.906s] -- Found required Ceres dependency: gflags
+[0.906s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[0.920s] -- Build type: Release
+[0.925s] ファイル /home/user/cartographer_ws/build/cartographer_rviz/AllFiles.cmake と - は異なります
+[0.946s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: iostreams 
+[0.947s] -- Found cartographer_ros: 2.0.9003 (/home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros/cmake)
+[1.013s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.025s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.040s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.061s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.092s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.579s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.586s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.724s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.761s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.823s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.270s] -- Found rviz_common: 11.2.12 (/opt/ros/humble/share/rviz_common/cmake)
+[3.330s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[3.332s] -- Found OGRE
+[3.332s] --   static     : OFF
+[3.332s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[3.332s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.332s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[3.332s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[3.332s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[3.332s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.332s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[3.332s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.333s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.333s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.333s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.359s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[3.365s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[3.496s] -- Found X11: /usr/include   
+[3.498s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[3.609s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[3.609s] -- Looking for gethostbyname
+[3.703s] -- Looking for gethostbyname - found
+[3.703s] -- Looking for connect
+[3.786s] -- Looking for connect - found
+[3.786s] -- Looking for remove
+[3.870s] -- Looking for remove - found
+[3.870s] -- Looking for shmat
+[3.954s] -- Looking for shmat - found
+[3.954s] -- Looking for IceConnectionNumber in ICE
+[4.040s] -- Looking for IceConnectionNumber in ICE - found
+[4.042s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[4.043s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[4.155s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[4.217s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.217s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.892s] -- Deploy OGRE media
+[4.895s] -- Configuring done
+[4.975s] -- Generating done
+[4.977s] -- Build files have been written to: /home/user/cartographer_ws/build/cartographer_rviz
+[4.993s] Invoked command in '/home/user/cartographer_ws/build/cartographer_rviz' returned '0': CMAKE_PREFIX_PATH=/home/user/cartographer_ws/install/cartographer_ros:/home/user/cartographer_ws/install/cartographer_ros_msgs:/home/user/cartographer_ws/install/cartographer:/home/user/cartographer_ws/install/cartographer_rviz:/home/user/slam_ws/install/turtlebot3:/home/user/slam_ws/install/turtlebot3_simulations:/home/user/slam_ws/install/turtlebot3_bringup:/home/user/slam_ws/install/turtlebot3_node:/home/user/slam_ws/install/turtlebot3_navigation2:/home/user/slam_ws/install/turtlebot3_fake_node:/home/user/slam_ws/install/turtlebot3_msgs:/home/user/slam_ws/install/turtlebot3_gazebo:/home/user/slam_ws/install/turtlebot3_description:/home/user/slam_ws/install/turtlebot3_cartographer:/home/user/slam_ws/install/ld08_driver:/home/user/slam_ws/install/hls_lfcd_lds_driver:/home/user/slam_ws/install/dynamixel_sdk_examples:/home/user/slam_ws/install/dynamixel_sdk_custom_interfaces:/home/user/slam_ws/install/dynamixel_sdk:/home/user/slam_ws/install/cartographer_rviz:/home/user/slam_ws/install/cartographer_ros:/home/user/slam_ws/install/cartographer_ros_msgs:/home/user/slam_ws/install/cartographer:/home/user/slam_ws/install/turtlebot3_teleop:/home/user/slam_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/user/cartographer_ws/install/cartographer_ros_msgs/lib:/home/user/cartographer_ws/install/cartographer_rviz/lib:/home/user/cartographer_ws/install/cartographer_ros/lib:/home/user/slam_ws/install/turtlebot3_msgs/lib:/home/user/slam_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/user/slam_ws/install/dynamixel_sdk/lib:/home/user/slam_ws/install/cartographer_rviz/lib:/home/user/slam_ws/install/cartographer_ros/lib:/home/user/slam_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/user/cartographer_ws/src/cartographer_ros/cartographer_rviz -DCMAKE_INSTALL_PREFIX=/home/user/cartographer_ws/install/cartographer_rviz
+[4.995s] Invoking command in '/home/user/cartographer_ws/build/cartographer_rviz': CMAKE_PREFIX_PATH=/home/user/cartographer_ws/install/cartographer_ros:/home/user/cartographer_ws/install/cartographer_ros_msgs:/home/user/cartographer_ws/install/cartographer:/home/user/cartographer_ws/install/cartographer_rviz:/home/user/slam_ws/install/turtlebot3:/home/user/slam_ws/install/turtlebot3_simulations:/home/user/slam_ws/install/turtlebot3_bringup:/home/user/slam_ws/install/turtlebot3_node:/home/user/slam_ws/install/turtlebot3_navigation2:/home/user/slam_ws/install/turtlebot3_fake_node:/home/user/slam_ws/install/turtlebot3_msgs:/home/user/slam_ws/install/turtlebot3_gazebo:/home/user/slam_ws/install/turtlebot3_description:/home/user/slam_ws/install/turtlebot3_cartographer:/home/user/slam_ws/install/ld08_driver:/home/user/slam_ws/install/hls_lfcd_lds_driver:/home/user/slam_ws/install/dynamixel_sdk_examples:/home/user/slam_ws/install/dynamixel_sdk_custom_interfaces:/home/user/slam_ws/install/dynamixel_sdk:/home/user/slam_ws/install/cartographer_rviz:/home/user/slam_ws/install/cartographer_ros:/home/user/slam_ws/install/cartographer_ros_msgs:/home/user/slam_ws/install/cartographer:/home/user/slam_ws/install/turtlebot3_teleop:/home/user/slam_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/user/cartographer_ws/install/cartographer_ros_msgs/lib:/home/user/cartographer_ws/install/cartographer_rviz/lib:/home/user/cartographer_ws/install/cartographer_ros/lib:/home/user/slam_ws/install/turtlebot3_msgs/lib:/home/user/slam_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/user/slam_ws/install/dynamixel_sdk/lib:/home/user/slam_ws/install/cartographer_rviz/lib:/home/user/slam_ws/install/cartographer_ros/lib:/home/user/slam_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/user/cartographer_ws/build/cartographer_rviz -- -j8 -l8
+[5.065s] [ 16%] [34m[1mAutomatic MOC for target cartographer_rviz[0m
+[5.073s] [ 16%] Built target cartographer_rviz_detect_changes
+[8.980s] [ 16%] Built target cartographer_rviz_autogen
+[9.008s] [ 66%] [32mBuilding CXX object CMakeFiles/cartographer_rviz.dir/src/drawable_submap.cpp.o[0m
+[9.009s] [ 66%] [32mBuilding CXX object CMakeFiles/cartographer_rviz.dir/cartographer_rviz_autogen/mocs_compilation.cpp.o[0m
+[9.009s] [ 66%] [32mBuilding CXX object CMakeFiles/cartographer_rviz.dir/src/ogre_slice.cpp.o[0m
+[9.009s] [ 83%] [32mBuilding CXX object CMakeFiles/cartographer_rviz.dir/src/submaps_display.cpp.o[0m
+[34.348s] [100%] [32m[1mLinking CXX shared library libcartographer_rviz.so[0m
+[36.389s] [100%] Built target cartographer_rviz
+[36.411s] Invoked command in '/home/user/cartographer_ws/build/cartographer_rviz' returned '0': CMAKE_PREFIX_PATH=/home/user/cartographer_ws/install/cartographer_ros:/home/user/cartographer_ws/install/cartographer_ros_msgs:/home/user/cartographer_ws/install/cartographer:/home/user/cartographer_ws/install/cartographer_rviz:/home/user/slam_ws/install/turtlebot3:/home/user/slam_ws/install/turtlebot3_simulations:/home/user/slam_ws/install/turtlebot3_bringup:/home/user/slam_ws/install/turtlebot3_node:/home/user/slam_ws/install/turtlebot3_navigation2:/home/user/slam_ws/install/turtlebot3_fake_node:/home/user/slam_ws/install/turtlebot3_msgs:/home/user/slam_ws/install/turtlebot3_gazebo:/home/user/slam_ws/install/turtlebot3_description:/home/user/slam_ws/install/turtlebot3_cartographer:/home/user/slam_ws/install/ld08_driver:/home/user/slam_ws/install/hls_lfcd_lds_driver:/home/user/slam_ws/install/dynamixel_sdk_examples:/home/user/slam_ws/install/dynamixel_sdk_custom_interfaces:/home/user/slam_ws/install/dynamixel_sdk:/home/user/slam_ws/install/cartographer_rviz:/home/user/slam_ws/install/cartographer_ros:/home/user/slam_ws/install/cartographer_ros_msgs:/home/user/slam_ws/install/cartographer:/home/user/slam_ws/install/turtlebot3_teleop:/home/user/slam_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/user/cartographer_ws/install/cartographer_ros_msgs/lib:/home/user/cartographer_ws/install/cartographer_rviz/lib:/home/user/cartographer_ws/install/cartographer_ros/lib:/home/user/slam_ws/install/turtlebot3_msgs/lib:/home/user/slam_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/user/slam_ws/install/dynamixel_sdk/lib:/home/user/slam_ws/install/cartographer_rviz/lib:/home/user/slam_ws/install/cartographer_ros/lib:/home/user/slam_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/user/cartographer_ws/build/cartographer_rviz -- -j8 -l8
+[36.464s] Invoking command in '/home/user/cartographer_ws/build/cartographer_rviz': CMAKE_PREFIX_PATH=/home/user/cartographer_ws/install/cartographer_ros:/home/user/cartographer_ws/install/cartographer_ros_msgs:/home/user/cartographer_ws/install/cartographer:/home/user/cartographer_ws/install/cartographer_rviz:/home/user/slam_ws/install/turtlebot3:/home/user/slam_ws/install/turtlebot3_simulations:/home/user/slam_ws/install/turtlebot3_bringup:/home/user/slam_ws/install/turtlebot3_node:/home/user/slam_ws/install/turtlebot3_navigation2:/home/user/slam_ws/install/turtlebot3_fake_node:/home/user/slam_ws/install/turtlebot3_msgs:/home/user/slam_ws/install/turtlebot3_gazebo:/home/user/slam_ws/install/turtlebot3_description:/home/user/slam_ws/install/turtlebot3_cartographer:/home/user/slam_ws/install/ld08_driver:/home/user/slam_ws/install/hls_lfcd_lds_driver:/home/user/slam_ws/install/dynamixel_sdk_examples:/home/user/slam_ws/install/dynamixel_sdk_custom_interfaces:/home/user/slam_ws/install/dynamixel_sdk:/home/user/slam_ws/install/cartographer_rviz:/home/user/slam_ws/install/cartographer_ros:/home/user/slam_ws/install/cartographer_ros_msgs:/home/user/slam_ws/install/cartographer:/home/user/slam_ws/install/turtlebot3_teleop:/home/user/slam_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/user/cartographer_ws/install/cartographer_ros_msgs/lib:/home/user/cartographer_ws/install/cartographer_rviz/lib:/home/user/cartographer_ws/install/cartographer_ros/lib:/home/user/slam_ws/install/turtlebot3_msgs/lib:/home/user/slam_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/user/slam_ws/install/dynamixel_sdk/lib:/home/user/slam_ws/install/cartographer_rviz/lib:/home/user/slam_ws/install/cartographer_ros/lib:/home/user/slam_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/user/cartographer_ws/build/cartographer_rviz
+[36.473s] -- Install configuration: "Release"
+[36.473s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/rviz_plugin_description.xml
+[36.477s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/lib/libcartographer_rviz.so
+[36.484s] -- Set runtime path of "/home/user/cartographer_ws/install/cartographer_rviz/lib/libcartographer_rviz.so" to ""
+[36.484s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/include/
+[36.484s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/include//cartographer_rviz
+[36.484s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/include//cartographer_rviz/submaps_display.h
+[36.484s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/include//cartographer_rviz/ogre_slice.h
+[36.485s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/include//cartographer_rviz/drawable_submap.h
+[36.485s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/environment/library_path.sh
+[36.485s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/environment/library_path.dsv
+[36.485s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/share/ament_index/resource_index/package_run_dependencies/cartographer_rviz
+[36.485s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/share/ament_index/resource_index/parent_prefix_path/cartographer_rviz
+[36.485s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/environment/ament_prefix_path.sh
+[36.485s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/environment/ament_prefix_path.dsv
+[36.485s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/environment/path.sh
+[36.485s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/environment/path.dsv
+[36.486s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/local_setup.bash
+[36.486s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/local_setup.sh
+[36.486s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/local_setup.zsh
+[36.486s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/local_setup.dsv
+[36.486s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/package.dsv
+[36.486s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/share/ament_index/resource_index/packages/cartographer_rviz
+[36.487s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/share/ament_index/resource_index/rviz_common__pluginlib__plugin/cartographer_rviz
+[36.487s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120
+[36.487s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120/glsl120.program
+[36.487s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120/submap.vert
+[36.487s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120/submap.frag
+[36.488s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/scripts
+[36.488s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/scripts/submap.material
+[36.488s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/share/ament_index/resource_index/rviz_ogre_media_exports/cartographer_rviz
+[36.488s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizExport.cmake
+[36.488s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizExport-release.cmake
+[36.488s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/ament_cmake_export_include_directories-extras.cmake
+[36.488s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/ament_cmake_export_targets-extras.cmake
+[36.489s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/ament_cmake_export_dependencies-extras.cmake
+[36.489s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizConfig.cmake
+[36.489s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizConfig-version.cmake
+[36.489s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/package.xml
+[36.491s] Invoked command in '/home/user/cartographer_ws/build/cartographer_rviz' returned '0': CMAKE_PREFIX_PATH=/home/user/cartographer_ws/install/cartographer_ros:/home/user/cartographer_ws/install/cartographer_ros_msgs:/home/user/cartographer_ws/install/cartographer:/home/user/cartographer_ws/install/cartographer_rviz:/home/user/slam_ws/install/turtlebot3:/home/user/slam_ws/install/turtlebot3_simulations:/home/user/slam_ws/install/turtlebot3_bringup:/home/user/slam_ws/install/turtlebot3_node:/home/user/slam_ws/install/turtlebot3_navigation2:/home/user/slam_ws/install/turtlebot3_fake_node:/home/user/slam_ws/install/turtlebot3_msgs:/home/user/slam_ws/install/turtlebot3_gazebo:/home/user/slam_ws/install/turtlebot3_description:/home/user/slam_ws/install/turtlebot3_cartographer:/home/user/slam_ws/install/ld08_driver:/home/user/slam_ws/install/hls_lfcd_lds_driver:/home/user/slam_ws/install/dynamixel_sdk_examples:/home/user/slam_ws/install/dynamixel_sdk_custom_interfaces:/home/user/slam_ws/install/dynamixel_sdk:/home/user/slam_ws/install/cartographer_rviz:/home/user/slam_ws/install/cartographer_ros:/home/user/slam_ws/install/cartographer_ros_msgs:/home/user/slam_ws/install/cartographer:/home/user/slam_ws/install/turtlebot3_teleop:/home/user/slam_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/user/cartographer_ws/install/cartographer_ros_msgs/lib:/home/user/cartographer_ws/install/cartographer_rviz/lib:/home/user/cartographer_ws/install/cartographer_ros/lib:/home/user/slam_ws/install/turtlebot3_msgs/lib:/home/user/slam_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/user/slam_ws/install/dynamixel_sdk/lib:/home/user/slam_ws/install/cartographer_rviz/lib:/home/user/slam_ws/install/cartographer_ros/lib:/home/user/slam_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/user/cartographer_ws/build/cartographer_rviz
