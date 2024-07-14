@@ -1,0 +1,47 @@
+[0.019s] Invoking command in '/home/user/cartographer_ws/build/cartographer_rviz': CMAKE_PREFIX_PATH=/home/user/cartographer_ws/install/cartographer_ros:/home/user/cartographer_ws/install/cartographer_ros_msgs:/home/user/cartographer_ws/install/cartographer:/home/user/cartographer_ws/install/cartographer_rviz:/opt/ros/humble LD_LIBRARY_PATH=/home/user/cartographer_ws/install/cartographer_ros_msgs/lib:/home/user/cartographer_ws/install/cartographer_rviz/lib:/home/user/cartographer_ws/install/cartographer_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/user/cartographer_ws/build/cartographer_rviz -- -j8 -l8
+[0.084s] [ 16%] [34m[1mAutomatic MOC for target cartographer_rviz[0m
+[0.088s] [ 16%] Built target cartographer_rviz_detect_changes
+[0.121s] [ 16%] Built target cartographer_rviz_autogen
+[0.176s] [ 33%] [32m[1mLinking CXX shared library libcartographer_rviz.so[0m
+[2.254s] [100%] Built target cartographer_rviz
+[2.268s] Invoked command in '/home/user/cartographer_ws/build/cartographer_rviz' returned '0': CMAKE_PREFIX_PATH=/home/user/cartographer_ws/install/cartographer_ros:/home/user/cartographer_ws/install/cartographer_ros_msgs:/home/user/cartographer_ws/install/cartographer:/home/user/cartographer_ws/install/cartographer_rviz:/opt/ros/humble LD_LIBRARY_PATH=/home/user/cartographer_ws/install/cartographer_ros_msgs/lib:/home/user/cartographer_ws/install/cartographer_rviz/lib:/home/user/cartographer_ws/install/cartographer_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/user/cartographer_ws/build/cartographer_rviz -- -j8 -l8
+[2.319s] Invoking command in '/home/user/cartographer_ws/build/cartographer_rviz': CMAKE_PREFIX_PATH=/home/user/cartographer_ws/install/cartographer_ros:/home/user/cartographer_ws/install/cartographer_ros_msgs:/home/user/cartographer_ws/install/cartographer:/home/user/cartographer_ws/install/cartographer_rviz:/opt/ros/humble LD_LIBRARY_PATH=/home/user/cartographer_ws/install/cartographer_ros_msgs/lib:/home/user/cartographer_ws/install/cartographer_rviz/lib:/home/user/cartographer_ws/install/cartographer_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/user/cartographer_ws/build/cartographer_rviz
+[2.333s] -- Install configuration: "Release"
+[2.333s] -- Execute custom install script
+[2.334s] -- Up-to-date symlink: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz//rviz_plugin_description.xml
+[2.334s] -- Up-to-date symlink: /home/user/cartographer_ws/install/cartographer_rviz/include//cartographer_rviz/drawable_submap.h
+[2.334s] -- Up-to-date symlink: /home/user/cartographer_ws/install/cartographer_rviz/include//cartographer_rviz/ogre_slice.h
+[2.334s] -- Up-to-date symlink: /home/user/cartographer_ws/install/cartographer_rviz/include//cartographer_rviz/submaps_display.h
+[2.335s] -- Up-to-date symlink: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/environment/library_path.sh
+[2.335s] -- Up-to-date symlink: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/environment/library_path.dsv
+[2.335s] -- Up-to-date symlink: /home/user/cartographer_ws/install/cartographer_rviz/share/ament_index/resource_index/package_run_dependencies/cartographer_rviz
+[2.335s] -- Up-to-date symlink: /home/user/cartographer_ws/install/cartographer_rviz/share/ament_index/resource_index/parent_prefix_path/cartographer_rviz
+[2.335s] -- Up-to-date symlink: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/environment/ament_prefix_path.sh
+[2.336s] -- Up-to-date symlink: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/environment/ament_prefix_path.dsv
+[2.336s] -- Up-to-date symlink: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/environment/path.sh
+[2.336s] -- Up-to-date symlink: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/environment/path.dsv
+[2.336s] -- Up-to-date symlink: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/local_setup.bash
+[2.336s] -- Up-to-date symlink: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/local_setup.sh
+[2.337s] -- Up-to-date symlink: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/local_setup.zsh
+[2.337s] -- Up-to-date symlink: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/local_setup.dsv
+[2.337s] -- Symlinking: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/package.dsv
+[2.349s] -- Up-to-date symlink: /home/user/cartographer_ws/install/cartographer_rviz/share/ament_index/resource_index/packages/cartographer_rviz
+[2.350s] -- Up-to-date symlink: /home/user/cartographer_ws/install/cartographer_rviz/share/ament_index/resource_index/rviz_common__pluginlib__plugin/cartographer_rviz
+[2.350s] -- Up-to-date symlink: /home/user/cartographer_ws/install/cartographer_rviz/share/ament_index/resource_index/rviz_ogre_media_exports/cartographer_rviz
+[2.350s] -- Up-to-date symlink: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.350s] -- Up-to-date symlink: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/ament_cmake_export_targets-extras.cmake
+[2.350s] -- Up-to-date symlink: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.350s] -- Up-to-date symlink: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizConfig.cmake
+[2.350s] -- Up-to-date symlink: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizConfig-version.cmake
+[2.351s] -- Up-to-date symlink: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/package.xml
+[2.351s] -- Installing: /home/user/cartographer_ws/install/cartographer_rviz/lib/libcartographer_rviz.so
+[2.363s] -- Set runtime path of "/home/user/cartographer_ws/install/cartographer_rviz/lib/libcartographer_rviz.so" to ""
+[2.363s] -- Up-to-date: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120
+[2.363s] -- Up-to-date: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120/glsl120.program
+[2.363s] -- Up-to-date: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120/submap.vert
+[2.363s] -- Up-to-date: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120/submap.frag
+[2.363s] -- Up-to-date: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/scripts
+[2.363s] -- Up-to-date: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/scripts/submap.material
+[2.363s] -- Up-to-date: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizExport.cmake
+[2.364s] -- Up-to-date: /home/user/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizExport-release.cmake
+[2.366s] Invoked command in '/home/user/cartographer_ws/build/cartographer_rviz' returned '0': CMAKE_PREFIX_PATH=/home/user/cartographer_ws/install/cartographer_ros:/home/user/cartographer_ws/install/cartographer_ros_msgs:/home/user/cartographer_ws/install/cartographer:/home/user/cartographer_ws/install/cartographer_rviz:/opt/ros/humble LD_LIBRARY_PATH=/home/user/cartographer_ws/install/cartographer_ros_msgs/lib:/home/user/cartographer_ws/install/cartographer_rviz/lib:/home/user/cartographer_ws/install/cartographer_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/user/cartographer_ws/build/cartographer_rviz

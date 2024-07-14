@@ -1,0 +1,20 @@
+[01m[K/home/user/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:[m[K In member function ‘[01m[Kvoid cartographer_ros::Node::HandleOdometryMessage(int, const string&, const ConstSharedPtr&)[m[K’:
+[01m[K/home/user/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:790:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktrajectory_id[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  790 | void Node::HandleOdometryMessage([01;35m[Kconst int trajectory_id[m[K,
+      |                                  [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/user/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:791:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksensor_id[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  791 |                                  [01;35m[Kconst std::string& sensor_id[m[K,
+      |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/user/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:792:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  792 |                                  [01;35m[Kconst nav_msgs::msg::Odometry::ConstSharedPtr& msg[m[K) {
+      |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/user/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:[m[K In member function ‘[01m[Kvoid cartographer_ros::Node::HandleLaserScanMessage(int, const string&, const ConstSharedPtr&)[m[K’:
+[01m[K/home/user/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:844:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktrajectory_id[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  844 | void Node::HandleLaserScanMessage([01;35m[Kconst int trajectory_id[m[K,
+      |                                   [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/user/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:845:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksensor_id[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  845 |                                   [01;35m[Kconst std::string& sensor_id[m[K,
+      |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/user/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:846:86:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  846 |                                   [01;35m[Kconst sensor_msgs::msg::LaserScan::ConstSharedPtr& msg[m[K) {
+      |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K

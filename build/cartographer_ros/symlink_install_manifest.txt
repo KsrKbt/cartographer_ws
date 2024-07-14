@@ -71,6 +71,8 @@
 /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/offline_node.launch.py
 /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/taurob_tracker.launch.py
 /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/turtlebot3_cartographer.launch.py
+/home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/turtlebot3_delete_cartographer.launch.py
+/home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/turtlebot3_remapped_cartographer.launch.py
 /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/visualize_pbstream.launch.py
 /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros/environment/library_path.sh
 /home/user/cartographer_ws/install/cartographer_ros/share/cartographer_ros/environment/library_path.dsv

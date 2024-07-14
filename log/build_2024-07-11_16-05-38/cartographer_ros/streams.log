@@ -1,0 +1,35 @@
+[0.020s] Invoking command in '/home/user/cartographer_ws/build/cartographer_ros': CMAKE_PREFIX_PATH=/home/user/cartographer_ws/install/cartographer_ros_msgs:/home/user/cartographer_ws/install/cartographer:/home/user/cartographer_ws/install/cartographer_rviz:/home/user/cartographer_ws/install/cartographer_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/user/cartographer_ws/install/cartographer_ros_msgs/lib:/home/user/cartographer_ws/install/cartographer_rviz/lib:/home/user/cartographer_ws/install/cartographer_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/user/cartographer_ws/build/cartographer_ros -- -j8 -l8
+[0.181s] [  2%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node.cpp.o[0m
+[0.182s] [  5%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node_options.cpp.o[0m
+[0.185s] [  8%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/offline_node.cpp.o[0m
+[4.496s] [01m[K/home/user/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node_options.cpp:[m[K In function ‘[01m[Kcartographer_ros::NodeOptions cartographer_ros::CreateNodeOptions(cartographer::common::LuaParameterDictionary*)[m[K’:
+[4.496s] [01m[K/home/user/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node_options.cpp:55:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct cartographer_ros::NodeOptions[m[K’ has no member named ‘[01m[Ksubscribe_to_parameter_events[m[K’
+[4.496s]    55 |   options.[01;31m[Ksubscribe_to_parameter_events[m[K = false;
+[4.496s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.151s] gmake[2]: *** [CMakeFiles/cartographer_ros.dir/build.make:146: CMakeFiles/cartographer_ros.dir/src/node_options.cpp.o] エラー 1
+[5.151s] gmake[2]: *** 未完了のジョブを待っています....
+[8.949s] [01m[K/home/user/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:[m[K In member function ‘[01m[Kvoid cartographer_ros::Node::HandleOdometryMessage(int, const string&, const ConstSharedPtr&)[m[K’:
+[8.949s] [01m[K/home/user/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:790:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktrajectory_id[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.949s]   790 | void Node::HandleOdometryMessage([01;35m[Kconst int trajectory_id[m[K,
+[8.949s]       |                                  [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[8.949s] [01m[K/home/user/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:791:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksensor_id[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.949s]   791 |                                  [01;35m[Kconst std::string& sensor_id[m[K,
+[8.949s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[8.949s] [01m[K/home/user/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:792:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.949s]   792 |                   [01;35m[Kconst nav_msgs::msg::Odometry::ConstSharedPtr& msg[m[K) {
+[8.949s]       |                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[8.950s] 
+[8.961s] [01m[K/home/user/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:[m[K In member function ‘[01m[Kvoid cartographer_ros::Node::HandleLaserScanMessage(int, const string&, const ConstSharedPtr&)[m[K’:
+[8.961s] [01m[K/home/user/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:844:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktrajectory_id[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.961s]   844 | void Node::HandleLaserScanMessage([01;35m[Kconst int trajectory_id[m[K,
+[8.962s]       |                                   [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[8.962s] [01m[K/home/user/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:845:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksensor_id[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.962s]   845 |                                   [01;35m[Kconst std::string& sensor_id[m[K,
+[8.962s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[8.962s] [01m[K/home/user/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:846:86:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.962s]   846 |               [01;35m[Kconst sensor_msgs::msg::LaserScan::ConstSharedPtr& msg[m[K) {
+[8.962s]       |               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[8.962s] 
+[39.909s] gmake[1]: *** [CMakeFiles/Makefile2:151: CMakeFiles/cartographer_ros.dir/all] エラー 2
+[39.909s] gmake: *** [Makefile:146: all] エラー 2
+[39.912s] Invoked command in '/home/user/cartographer_ws/build/cartographer_ros' returned '2': CMAKE_PREFIX_PATH=/home/user/cartographer_ws/install/cartographer_ros_msgs:/home/user/cartographer_ws/install/cartographer:/home/user/cartographer_ws/install/cartographer_rviz:/home/user/cartographer_ws/install/cartographer_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/user/cartographer_ws/install/cartographer_ros_msgs/lib:/home/user/cartographer_ws/install/cartographer_rviz/lib:/home/user/cartographer_ws/install/cartographer_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/user/cartographer_ws/build/cartographer_ros -- -j8 -l8
