@@ -3,7 +3,8 @@ from rclpy.node import Node
 from sensor_msgs.msg import LaserScan
 from nav_msgs.msg import Odometry
 from std_msgs.msg import Header
-from geometry_msgs.msg import Pose, PoseStamped, Point, Twist
+from geometry_msgs.msg import Pose, PoseStamped, Point, Twist, TransformStamped
+from tf2_msgs.msg import TFMessage
 from rclpy.qos import QoSProfile, ReliabilityPolicy, HistoryPolicy, DurabilityPolicy
 import websocket
 import json
@@ -22,8 +23,18 @@ class DataTransferNode(Node):
             durability=DurabilityPolicy.VOLATILE
         )
 
+        # tf_staticのためのQoSプロファイル
+        qos_profile_tf_static = QoSProfile(
+            reliability=ReliabilityPolicy.RELIABLE,
+            history=HistoryPolicy.KEEP_LAST,
+            depth=10,
+            durability=DurabilityPolicy.TRANSIENT_LOCAL
+        )
+
         self.scan_sub = self.create_subscription(LaserScan, '/scan', self.scan_callback, qos_profile)
         self.odom_sub = self.create_subscription(Odometry, '/odom', self.odom_callback, qos_profile)
+        self.tf_sub = self.create_subscription(TFMessage, '/tf', self.tf_callback, qos_profile)
+        self.tf_static_sub = self.create_subscription(TFMessage, '/tf_static', self.tf_static_callback, qos_profile_tf_static)
         
         self.ws = None
         self.connect_websocket()
@@ -34,38 +45,11 @@ class DataTransferNode(Node):
     def odom_callback(self, msg):
         self.send_to_pc2('/odom', msg)
 
-    def send_to_pc2(self, topic, msg):
-        data = {
-            "op": "publish",
-            "topic": topic,
-            "msg": self.ros_msg_to_dict(msg)
-        }
-        self.ws.send(json.dumps(data))
+    def tf_callback(self, msg):
+        self.send_to_pc2('/tf', msg)
 
-    def on_message(self, ws, message):
-        # This method is not used in this implementation
-        pass
-
-    def on_open(self, ws):
-        self.get_logger().info("WebSocket connection opened")
-
-    def on_error(self, ws, error):
-        self.get_logger().error(f"WebSocket error: {error}")
-    
-    def connect_websocket(self):
-        while rclpy.ok():
-            try:
-                self.ws = websocket.WebSocketApp("ws://192.168.1.29:9090",
-                                                 on_open=self.on_open,
-                                                 on_message=self.on_message,
-                                                 on_error=self.on_error,
-                                                 on_close=self.on_close)
-                self.ws_thread = threading.Thread(target=self.ws.run_forever)
-                self.ws_thread.start()
-                break
-            except Exception as e:
-                self.get_logger().error(f"Failed to connect to WebSocket: {e}")
-                time.sleep(5)  # 5秒待ってから再試行
+    def tf_static_callback(self, msg):
+        self.send_to_pc2('/tf_static', msg)
 
     def send_to_pc2(self, topic, msg):
         data = {
@@ -82,9 +66,34 @@ class DataTransferNode(Node):
         except Exception as e:
             self.get_logger().error(f"Error sending data: {e}")
 
+    def on_message(self, ws, message):
+        # This method is not used in this implementation
+        pass
+
+    def on_open(self, ws):
+        self.get_logger().info("WebSocket connection opened")
+
+    def on_error(self, ws, error):
+        self.get_logger().error(f"WebSocket error: {error}")
+    
     def on_close(self, ws, close_status_code, close_msg):
         self.get_logger().info(f"WebSocket connection closed: {close_status_code} - {close_msg}")
         self.connect_websocket()  # 接続が閉じられたら再接続を試みる
+
+    def connect_websocket(self):
+        while rclpy.ok():
+            try:
+                self.ws = websocket.WebSocketApp("ws://192.168.1.29:9090",
+                                                 on_open=self.on_open,
+                                                 on_message=self.on_message,
+                                                 on_error=self.on_error,
+                                                 on_close=self.on_close)
+                self.ws_thread = threading.Thread(target=self.ws.run_forever)
+                self.ws_thread.start()
+                break
+            except Exception as e:
+                self.get_logger().error(f"Failed to connect to WebSocket: {e}")
+                time.sleep(5)  # 5秒待ってから再試行
 
     def ros_msg_to_dict(self, msg):
         if isinstance(msg, LaserScan):
@@ -106,6 +115,10 @@ class DataTransferNode(Node):
                 "child_frame_id": msg.child_frame_id,
                 "pose": self.pose_with_covariance_to_dict(msg.pose),
                 "twist": self.twist_with_covariance_to_dict(msg.twist)
+            }
+        elif isinstance(msg, TFMessage):
+            return {
+                "transforms": [self.transform_stamped_to_dict(transform) for transform in msg.transforms]
             }
         else:
             self.get_logger().warn(f"Unsupported message type: {type(msg)}")
@@ -152,6 +165,16 @@ class DataTransferNode(Node):
 
     def vector3_to_dict(self, vector3):
         return {"x": vector3.x, "y": vector3.y, "z": vector3.z}
+
+    def transform_stamped_to_dict(self, transform_stamped):
+        return {
+            "header": self.header_to_dict(transform_stamped.header),
+            "child_frame_id": transform_stamped.child_frame_id,
+            "transform": {
+                "translation": self.vector3_to_dict(transform_stamped.transform.translation),
+                "rotation": self.quaternion_to_dict(transform_stamped.transform.rotation)
+            }
+        }
 
 def main():
     rclpy.init()
